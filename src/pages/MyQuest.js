@@ -214,7 +214,7 @@ export default function MyQuest() {
 
       ],
 
-      certificateImage: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/National_Cyber_Olympiad_Certificate_2006.jpg'
+      certificateImage: '/images/National_Cyber_Olympiad_Certificate_2006.jpg'
 
     },
 
