@@ -189,3 +189,38 @@ $RECYCLE.BIN/
 storybook-static/
 out/
 .cache/storybook/
+
+############################################################
+#  REACT SPECIFIC
+############################################################
+# React build output
+build/
+dist/
+
+# React DevTools
+.react/
+
+# Source maps
+*.map
+
+# PWA files
+**/service-worker.js
+**/sw.js
+**/workbox-*.js
+
+# React scripts
+.scripts/
+
+############################################################
+#  ADDITIONAL FILES
+############################################################
+# Backup files
+*.bak
+*.backup
+*~
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+.temp/

@@ -16,7 +16,7 @@ export default function HeroSection() {
         <div className="relative">
           <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl">
             <img
-              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6907b5e24e4a0d5b8ade82c4/homepage_hero_image.jpg"
+              src="/images/homepage_hero_image.jpg"
               alt="Kaustubh Ramekar"
               className="w-full h-full object-cover"
               onError={(e) => {
