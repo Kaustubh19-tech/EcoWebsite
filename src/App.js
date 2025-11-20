@@ -1,20 +1,24 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import MyQuest from './pages/MyQuest';
 import Treasure from './pages/Treasure';
+import Projects from './pages/Projects';
+
+import BritishLibrary from './pages/BritishLibrary';
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/my-quest" element={<MyQuest />} />
         <Route path="/treasure" element={<Treasure />} />
+        <Route path="/treasure/british-library" element={<BritishLibrary />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
 export default App;
-
