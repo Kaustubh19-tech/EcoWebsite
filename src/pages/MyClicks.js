@@ -44,7 +44,7 @@ export default function MyClicks() {
             {/* Content Section */}
             <div className="max-w-4xl mx-auto px-6 lg:px-8 pb-24">
                 <div className="bg-white rounded-2xl shadow-lg p-8 lg:p-12 space-y-8 text-lg text-gray-700 leading-relaxed">
-                    <p>
+                    <p className="text-justify">
                         I tried to capture the raw beauty and tranquil spirit of the Garhwal Himalayas as I experienced them in 2012, hoping that these photographs would reflect not only the breathtaking landscapes but also my deep appreciation for nature's wonders, reminding us all to cherish and protect these pristine environments for generations to come.
                     </p>
                 </div>
