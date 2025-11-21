@@ -110,9 +110,28 @@ export default function EcoVeterans() {
                                     </div>
                                 </div>
                             </div>
+                        ))}
+                    </div>
+                </div>
 
-                {/* Custom Solutions */ }
-                            < div className = "bg-white rounded-2xl shadow-lg p-8 lg:p-12 mb-8" >
+                {/* Photo Section */}
+                <div className="bg-white rounded-2xl shadow-lg overflow-hidden mb-12">
+                    <div className="flex justify-center bg-gray-50 p-4">
+                        <img
+                            src="/carma-business-show.jpg"
+                            alt="Carma at The Business Show"
+                            className="max-h-96 w-auto object-contain rounded-lg"
+                        />
+                    </div>
+                    <div className="p-6 bg-gradient-to-r from-[#F0F4ED] to-white">
+                        <p className="text-center text-lg text-gray-700 font-medium">
+                            With Jay Williams & Jim Holland at The Business Show
+                        </p>
+                    </div>
+                </div>
+
+                {/* Custom Solutions */}
+                <div className="bg-white rounded-2xl shadow-lg p-8 lg:p-12 mb-8">
                     <h3 className="text-2xl font-bold text-[#2D5016] mb-4">Custom Solutions</h3>
                     <p className="text-lg text-gray-700 leading-relaxed text-justify mb-6">
                         Carma provides tailored advice and project quotes for larger organizations seeking comprehensive climate action plans. Carma exemplifies how climate activism can be synergized with community support, especially for veterans, making environmental impact meaningful for both planet and people.
@@ -130,7 +149,7 @@ export default function EcoVeterans() {
                         </a>
                     </div>
                 </div>
-                </div>
             </div>
-            );
+        </div>
+    );
 }
