@@ -1,0 +1,226 @@
+############################################################
+#  NODE / PACKAGE MANAGERS
+############################################################
+node_modules/
+.npm/
+.pnpm-store/
+.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json        # Uncomment to ignore lockfile
+yarn.lock                 # Uncomment to ignore lockfile
+pnpm-lock.yaml            # Uncomment to ignore lockfile
+
+############################################################
+#  NEXT.JS
+############################################################
+.next/
+.next.cache/
+out/
+dist/
+
+# Serverless / Edge artifacts
+.vercel/
+.vercel_build_output/
+
+# Turbopack
+.turbo/
+
+# Next.js cache files
+.cache/
+.next.static/
+
+############################################################
+#  ENVIRONMENT FILES
+############################################################
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.build.local
+!.env.example
+
+############################################################
+#  BUILD / OUTPUT / BUNDLERS
+############################################################
+build/
+coverage/
+build-stats.json
+stats.json
+
+# Webpack / SWC cache
+webpack.cache/
+.swpkg/
+.swc/
+.swc/*.cache
+.swc/cache/
+
+# Babel
+.babelrc.js
+.babelrc.json
+.cache/
+.cache-loader/
+
+############################################################
+#  TYPESCRIPT
+############################################################
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+############################################################
+#  LINTING / FORMATTING TOOLS
+############################################################
+.eslintcache
+.stylelintcache
+.prettier-cache/
+.prettierignore
+
+############################################################
+#  TESTING
+############################################################
+# Jest
+jest/
+coverage/
+*.testresults.json
+.jest/
+.jest-cache/
+.jest-test-results.json
+
+# Cypress / Playwright
+cypress/videos/
+cypress/screenshots/
+playwright-report/
+test-results/
+
+############################################################
+#  LOGS
+############################################################
+logs/
+*.log
+.log.
+*.pid
+*.seed
+*.pid.lock
+*.trace
+
+############################################################
+#  DOCKER
+############################################################
+docker-compose.override.yml
+docker-volume/
+*.pid
+*.sock
+*.cid
+
+############################################################
+#  PM2 / PROCESS MANAGERS
+############################################################
+.pm2/
+*.pm2.log
+
+############################################################
+#  EDITOR / IDE FILES
+############################################################
+.vscode/
+.history/
+.settings/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# Vim / Emacs
+*.swp
+*.swo
+*.tmp
+*~
+.*~
+
+############################################################
+#  OS FILES
+############################################################
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*.lock~
+.nfs
+
+############################################################
+#  MISCELLANEOUS
+############################################################
+*.local
+*.tmp
+*.temp
+*.cache
+.cache-loader/
+.tmp/
+.cache/
+
+# Lock files from various tools
+*.lock
+
+# Ignore Firebase cache
+.firebase/
+.firebase-analytics/
+
+# Storybook
+storybook-static/
+out/
+.cache/storybook/
+
+############################################################
+#  REACT SPECIFIC
+############################################################
+# React build output
+build/
+dist/
+
+# React DevTools
+.react/
+
+# Source maps
+*.map
+
+# PWA files
+**/service-worker.js
+**/sw.js
+**/workbox-*.js
+
+# React scripts
+.scripts/
+
+############################################################
+#  ADDITIONAL FILES
+############################################################
+# Backup files
+*.bak
+*.backup
+*~
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+.temp/

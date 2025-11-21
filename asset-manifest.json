@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/EcoWebsite/static/css/main.41f08444.css",
+    "main.js": "/EcoWebsite/static/js/main.d246337e.js",
+    "index.html": "/EcoWebsite/index.html",
+    "main.41f08444.css.map": "/EcoWebsite/static/css/main.41f08444.css.map",
+    "main.d246337e.js.map": "/EcoWebsite/static/js/main.d246337e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41f08444.css",
+    "static/js/main.d246337e.js"
+  ]
+}
