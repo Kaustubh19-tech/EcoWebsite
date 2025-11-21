@@ -120,7 +120,7 @@ export default function EcoVeterans() {
                         <img
                             src="/carma-business-show.jpg"
                             alt="Carma at The Business Show"
-                            className="max-h-[32rem] w-auto object-contain rounded-lg"
+                            className="max-h-[32rem] w-full max-w-4xl object-cover rounded-lg"
                         />
                     </div>
                     <div className="p-6 bg-gradient-to-r from-[#F0F4ED] to-white">
