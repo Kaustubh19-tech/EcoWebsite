@@ -7,6 +7,7 @@ import Projects from './pages/Projects';
 
 import BritishLibrary from './pages/BritishLibrary';
 import MyClicks from './pages/MyClicks';
+import EcoVeterans from './pages/EcoVeterans';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/treasure" element={<Treasure />} />
         <Route path="/treasure/british-library" element={<BritishLibrary />} />
         <Route path="/treasure/my-clicks" element={<MyClicks />} />
+        <Route path="/treasure/eco-veterans" element={<EcoVeterans />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
     </Router>

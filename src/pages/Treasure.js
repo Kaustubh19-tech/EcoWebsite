@@ -68,19 +68,24 @@ export default function Treasure() {
         </section>
 
         {/* Eco Veterans Section */}
-        <section id="eco-veterans" className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-shadow">
-          <div className="flex items-start gap-6">
-            <div className="w-16 h-16 bg-gradient-to-br from-[#3A6B35] to-[#2D5016] rounded-xl flex items-center justify-center flex-shrink-0">
-              <Users className="w-8 h-8 text-white" />
+        <Link to="/treasure/eco-veterans" className="block group">
+          <section id="eco-veterans" className="bg-white rounded-2xl shadow-lg p-8 group-hover:shadow-xl transition-all duration-300 transform group-hover:-translate-y-1">
+            <div className="flex items-start gap-6">
+              <div className="w-16 h-16 bg-gradient-to-br from-[#3A6B35] to-[#2D5016] rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                <Users className="w-8 h-8 text-white" />
+              </div>
+              <div className="flex-1">
+                <h2 className="text-3xl font-bold text-[#2D5016] mb-4 group-hover:text-[#3A6B35] transition-colors">Eco Veterans</h2>
+                <p className="text-gray-600 leading-relaxed text-lg">
+                  Honoring the pioneers and dedicated individuals who have paved the way for environmental conservation and sustainable practices.
+                  <span className="block mt-4 text-[#3A6B35] font-medium flex items-center gap-2">
+                    Read more <ArrowLeft className="w-4 h-4 rotate-180" />
+                  </span>
+                </p>
+              </div>
             </div>
-            <div className="flex-1">
-              <h2 className="text-3xl font-bold text-[#2D5016] mb-4">Eco Veterans</h2>
-              <p className="text-gray-600 leading-relaxed text-lg">
-                Honoring the pioneers and dedicated individuals who have paved the way for environmental conservation and sustainable practices.
-              </p>
-            </div>
-          </div>
-        </section>
+          </section>
+        </Link>
 
         {/* My Clicks Section */}
         <Link to="/treasure/my-clicks" className="block group">
