@@ -52,13 +52,13 @@ export default function BritishLibrary() {
             {/* Content Section */}
             <div className="max-w-4xl mx-auto px-6 lg:px-8 pb-24">
                 <div className="bg-white rounded-2xl shadow-lg p-8 lg:p-12 space-y-8 text-lg text-gray-700 leading-relaxed">
-                    <p>
+                    <p className="text-justify">
                         Over the past year, I have embarked on an independent research journey at the British Library, delving into the transformative potential of artificial intelligence to drive sustainable change. My exploration has led me to discover a wealth of resources, books and recommended readings that illuminate the intersections of technology and environmental stewardship.
                     </p>
-                    <p>
+                    <p className="text-justify">
                         One particularly striking moment was finding magazines on artificial intelligence, nature, and sustainability thoughtfully curated together in the same section. It felt as though the library itself was guiding me to blend these disciplines, inspiring a holistic approach to innovation and environmental progress.
                     </p>
-                    <p>
+                    <p className="text-justify">
                         Amidst intensive study, the British Library offers the perfect respite; its dedicated audio section celebrates the wonders of the natural world, allowing visitors to immerse themselves in the soothing sounds of Mother Nature before returning, refreshed, to their research and creativity.
                     </p>
                 </div>
