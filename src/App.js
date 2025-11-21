@@ -6,6 +6,7 @@ import Treasure from './pages/Treasure';
 import Projects from './pages/Projects';
 
 import BritishLibrary from './pages/BritishLibrary';
+import MyClicks from './pages/MyClicks';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/my-quest" element={<MyQuest />} />
         <Route path="/treasure" element={<Treasure />} />
         <Route path="/treasure/british-library" element={<BritishLibrary />} />
+        <Route path="/treasure/my-clicks" element={<MyClicks />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
     </Router>
