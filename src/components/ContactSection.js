@@ -38,16 +38,16 @@ export default function ContactSection() {
       const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
       const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
 
-      if (!serviceId || !templateId || !publicKey || 
-          serviceId === 'YOUR_SERVICE_ID' || 
-          templateId === 'YOUR_TEMPLATE_ID' || 
-          publicKey === 'YOUR_PUBLIC_KEY') {
+      if (!serviceId || !templateId || !publicKey ||
+        serviceId === 'YOUR_SERVICE_ID' ||
+        templateId === 'YOUR_TEMPLATE_ID' ||
+        publicKey === 'YOUR_PUBLIC_KEY') {
         throw new Error('EmailJS credentials not configured. Please set up your .env file.');
       }
 
       // Prepare email template parameters
       const templateParams = {
-        to_email: 'kramekar1@gmail.com',
+        to_email: 'kramekar5@gmail.com',
         from_name: `${formData.firstName} ${formData.lastName}`,
         from_email: formData.email,
         first_name: formData.firstName,
@@ -60,7 +60,7 @@ export default function ContactSection() {
       // Send email using EmailJS - each submission creates a separate email
       await emailjs.send(serviceId, templateId, templateParams, publicKey);
 
-      setStatus({ type: 'success', message: 'Thank you! Your message has been sent successfully to kramekar1@gmail.com.' });
+      setStatus({ type: 'success', message: 'Thank you! Your message has been sent successfully to kramekar5@gmail.com.' });
       setFormData({ firstName: '', lastName: '', email: '', message: '' });
     } catch (error) {
       console.error('EmailJS error:', error);
@@ -79,7 +79,7 @@ export default function ContactSection() {
             Interested in collaborating or learning more about sustainable solutions?
           </p>
         </div>
-        
+
         <form onSubmit={handleSubmit} className="bg-[#F5F7F0] rounded-2xl p-8 shadow-lg">
           <div className="grid md:grid-cols-2 gap-6 mb-6">
             <div>
@@ -148,11 +148,10 @@ export default function ContactSection() {
 
           {status.message && (
             <div
-              className={`mb-6 p-4 rounded-lg flex items-center gap-3 ${
-                status.type === 'success'
+              className={`mb-6 p-4 rounded-lg flex items-center gap-3 ${status.type === 'success'
                   ? 'bg-green-50 text-green-800 border border-green-200'
                   : 'bg-red-50 text-red-800 border border-red-200'
-              }`}
+                }`}
             >
               {status.type === 'success' ? (
                 <CheckCircle className="w-5 h-5 flex-shrink-0" />
