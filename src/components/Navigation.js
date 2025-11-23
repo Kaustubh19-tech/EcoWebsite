@@ -12,7 +12,7 @@ export default function Navigation() {
       setScrolled(window.scrollY > 20);
 
       // Determine active section based on scroll position
-      const sections = ['journey', 'projects', 'contact'];
+      const sections = ['journey', 'projects'];
       const current = sections.find(section => {
         const element = document.getElementById(section);
         if (element) {
@@ -57,7 +57,7 @@ export default function Navigation() {
     { id: 'myquest', label: 'My Quest', type: 'link' },
     { id: 'treasure', label: 'Treasure', type: 'link' },
     { id: 'projects', label: 'Projects', type: 'scroll' },
-    { id: 'contact', label: 'Contact', type: 'scroll' }
+    { id: 'linkedin', label: 'LinkedIn', type: 'external', url: 'https://www.linkedin.com/in/kr28' }
   ];
 
   return (
@@ -91,6 +91,16 @@ export default function Navigation() {
                 >
                   {item.label}
                 </Link>
+              ) : item.type === 'external' ? (
+                <a
+                  key={item.id}
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-2 rounded-full text-sm font-medium text-[#2C2C2C] hover:bg-[#A4B494]/20 hover:text-[#2D5016] transition-all duration-300"
+                >
+                  {item.label}
+                </a>
               ) : (
                 <button
                   key={item.id}
