@@ -9,7 +9,8 @@ export default function RoyalSociety() {
         { src: '/royal-society-2.jpg', alt: 'Dr. Bonnie Waring presenting on temporal evolution of ecosystem responses' },
         { src: '/royal-society-3.jpg', alt: 'Presentation on ERW + reforestation + microbiome manipulation trial' },
         { src: '/royal-society-4.jpg', alt: 'Discussion on climate mitigation benefits of ERW in reforestation and afforestation' },
-        { src: '/royal-society-5.jpg', alt: 'Dr. Elspeth Spence presenting on Public Acceptability of Enhanced Weathering' }
+        { src: '/royal-society-5.jpg', alt: 'Dr. Elspeth Spence presenting on Public Acceptability of Enhanced Weathering' },
+        { src: '/royal-society-6.jpg', alt: 'Meeting attendees posing in front of a historic scientific portrait at the Royal Society' }
     ];
 
     return (
