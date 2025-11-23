@@ -99,7 +99,7 @@ export default function RoyalSociety() {
 
                     <div className="space-y-6 text-lg leading-relaxed">
                         <p className="text-justify">
-                            The event also introduced me to <strong>The Carbon Community</strong>, an organization making significant contributions to nature-based carbon removal and reforestation within the UK. This inspiring initiative represents a grassroots approach to tackling climate change through meaningful environmental action.
+                            The event also introduced me to <strong>The Carbon Community</strong>, an organisation making significant contributions to nature-based carbon removal and reforestation within the UK. This inspiring initiative represents a grassroots approach to tackling climate change through meaningful environmental action.
                         </p>
 
                         <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
@@ -108,10 +108,10 @@ export default function RoyalSociety() {
                                 Empowering Communities for Climate Action
                             </h3>
                             <p className="text-justify mb-4">
-                                The Carbon Community operates on a powerful principle: bringing together individuals, businesses, and communities to create tangible environmental impact. Their approach combines scientific rigor with community engagement, making carbon removal accessible and meaningful for everyone involved.
+                                The Carbon Community operates on a powerful principle: bringing together individuals, businesses, and communities to create tangible environmental impact. Their approach combines scientific rigour with community engagement, making carbon removal accessible and meaningful for everyone involved.
                             </p>
                             <p className="text-justify">
-                                Through innovative reforestation projects and nature-based solutions, they're not just planting trees—they're cultivating a movement. Each project is designed to maximize biodiversity, restore ecosystems, and sequester carbon while educating and engaging local communities in the process.
+                                Through innovative reforestation projects and nature-based solutions, they're not just planting trees—they're cultivating a movement. Each project is designed to maximise biodiversity, restore ecosystems, and sequester carbon whilst educating and engaging local communities in the process.
                             </p>
                         </div>
 
