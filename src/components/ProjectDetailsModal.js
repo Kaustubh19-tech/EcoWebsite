@@ -28,9 +28,11 @@ export default function ProjectDetailsModal({ isOpen, onClose }) {
     ];
 
     const images = [
-        { src: '/pune-waste-1.png', alt: 'Pune Waste Management Project Overview' },
-        { src: '/pune-waste-2.png', alt: 'Quantitative Insights and Statistics' },
-        { src: '/pune-waste-3.png', alt: 'Additional Project Details' }
+        { src: '/pune-waste-field-1.jpg', alt: 'Team engaging with waste pickers and sanitation workers' },
+        { src: '/pune-waste-field-2.jpg', alt: 'Field visit to waste collection and sorting facility' },
+        { src: '/pune-waste-field-3.jpg', alt: 'Project team at recycling plant with waste management staff' },
+        { src: '/pune-waste-field-4.jpg', alt: 'Team conducting field research and stakeholder interviews' },
+        { src: '/pune-waste-field-5.jpg', alt: 'Project team with municipal workers and waste management personnel' }
     ];
 
     return (
@@ -127,46 +129,29 @@ export default function ProjectDetailsModal({ isOpen, onClose }) {
                                 ))}
                             </div>
                         </div>
-                    </div>
 
-                    {/* Project Photos */}
-                    <div className="mb-10">
-                        <h3 className="text-2xl font-bold text-[#2D5016] mb-6">Project Gallery</h3>
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            {images.map((image, index) => (
-                                <div key={index} className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
-                                    <img
-                                        src={image.src}
-                                        alt={image.alt}
-                                        className="w-full h-auto object-cover"
-                                    />
-                                </div>
-                            ))}
+                        {/* Impact & Recommendations */}
+                        <div className="mb-6">
+                            <h3 className="text-2xl font-bold text-[#2D5016] mb-4">Impact & Recommendations</h3>
+                            <p className="text-gray-700 leading-relaxed mb-4">
+                                This immersive project not only deepened our understanding of urban waste management but also highlighted the significant human and environmental factors intertwined in the process. Our findings aim to contribute towards the development of practical, technology-enabled solutions to enhance waste segregation, collection efficiency, and recycling outcomes in Pune.
+                            </p>
+                            <p className="text-gray-700 leading-relaxed">
+                                Through quantitative analysis coupled with qualitative insights, our project presents a clear roadmap for enhancing Pune's waste management system with measurable targets for improvement. These findings informed our recommendations for improving segregation protocols and supporting waste workers with better tools and processes.
+                            </p>
                         </div>
-                    </div>
 
-                    {/* Impact & Recommendations */}
-                    <div className="mb-6">
-                        <h3 className="text-2xl font-bold text-[#2D5016] mb-4">Impact & Recommendations</h3>
-                        <p className="text-gray-700 leading-relaxed mb-4">
-                            This immersive project not only deepened our understanding of urban waste management but also highlighted the significant human and environmental factors intertwined in the process. Our findings aim to contribute towards the development of practical, technology-enabled solutions to enhance waste segregation, collection efficiency, and recycling outcomes in Pune.
-                        </p>
-                        <p className="text-gray-700 leading-relaxed">
-                            Through quantitative analysis coupled with qualitative insights, our project presents a clear roadmap for enhancing Pune's waste management system with measurable targets for improvement. These findings informed our recommendations for improving segregation protocols and supporting waste workers with better tools and processes.
-                        </p>
-                    </div>
-
-                    {/* Close Button */}
-                    <div className="pt-6 border-t border-gray-200">
-                        <button
-                            onClick={onClose}
-                            className="w-full bg-gradient-to-r from-[#3A6B35] to-[#2D5016] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
-                        >
-                            Close
-                        </button>
+                        {/* Close Button */}
+                        <div className="pt-6 border-t border-gray-200">
+                            <button
+                                onClick={onClose}
+                                className="w-full bg-gradient-to-r from-[#3A6B35] to-[#2D5016] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+                            >
+                                Close
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    );
+            );
 }
