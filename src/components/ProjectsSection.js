@@ -3,7 +3,7 @@ import { Recycle, Droplets, Wind, Users } from 'lucide-react';
 import ProjectDetailsModal from './ProjectDetailsModal';
 
 export default function ProjectsSection() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [
     {
@@ -12,7 +12,8 @@ export default function ProjectsSection() {
       description: "Led a comprehensive three-month study of Pune's waste management ecosystem, surveying 500+ households and engaging with waste pickers, municipal workers, and recycling plants. Achieved 75% awareness rate in waste segregation and identified critical improvements for the city's circular economy.",
       impact: "500+ households surveyed",
       color: "from-[#3A6B35] to-[#2D5016]",
-      hasDetails: true
+      hasDetails: true,
+      projectId: "pune-waste"
     },
     {
       icon: Droplets,
@@ -28,7 +29,8 @@ export default function ProjectsSection() {
       description: "Completed an extensive environmental education project involving comprehensive research and curation. Reviewed 60+ newspapers, 25+ magazines and comics, and 10+ environmental books to collect articles, pictures, poems, and news clippings emphasising nature conservation, sustainability, biodiversity, and protection of flora and fauna. Carefully organised and pasted materials into a drawing book—preserved by my mother, a retired school principal and sustainability advocate.",
       impact: "95+ sources curated",
       color: "from-[#C2956E] to-[#A67C52]",
-      hasDetails: false
+      hasDetails: true,
+      projectId: "grade9-env"
     },
     {
       icon: Users,
@@ -83,7 +85,7 @@ export default function ProjectsSection() {
                 </div>
                 {project.hasDetails && (
                   <button
-                    onClick={() => setIsModalOpen(true)}
+                    onClick={() => setSelectedProject(project.projectId)}
                     className="text-[#3A6B35] text-sm font-extrabold hover:underline transition-all hover:text-[#2D5016]"
                   >
                     Explore here →
@@ -95,7 +97,10 @@ export default function ProjectsSection() {
         </div>
       </div>
 
-      <ProjectDetailsModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+      <ProjectDetailsModal
+        projectId={selectedProject}
+        onClose={() => setSelectedProject(null)}
+      />
     </section>
   );
 }
