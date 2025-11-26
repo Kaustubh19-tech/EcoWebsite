@@ -225,7 +225,7 @@ export default function Grade9EnvModal({ onClose }) {
                 </h3>
                 <div className="bg-gradient-to-r from-[#C2956E]/10 to-[#A67C52]/10 border-l-4 border-[#C2956E] rounded-r-xl p-6">
                     <p className="text-gray-700 leading-relaxed mb-4">
-                        My mother, a retired school principal and sustainability advocate, has preserved this project to this day. She recognised the tremendous effort I invested in it and understood that it represented more than just academic work—it was the beginning of my environmental journey.
+                        My mother, <a href="https://www.linkedin.com/in/kirtisr/" target="_blank" rel="noopener noreferrer" className="text-[#C2956E] font-semibold hover:underline">Mrs. Kirti Ramekar</a>, a retired school principal and sustainability advocate, has preserved this project to this day. She recognised the tremendous effort I invested in it and understood that it represented more than just academic work, it was the important part of my environmental journey.
                     </p>
                     <p className="text-gray-700 leading-relaxed italic">
                         "This project wasn't just about collecting information; it was about understanding my responsibility to the planet. Every article pasted, every poem included, deepened my commitment to environmental stewardship."
