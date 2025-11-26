@@ -225,11 +225,37 @@ export default function Grade9EnvModal({ onClose }) {
                 </h3>
                 <div className="bg-gradient-to-r from-[#C2956E]/10 to-[#A67C52]/10 border-l-4 border-[#C2956E] rounded-r-xl p-6">
                     <p className="text-gray-700 leading-relaxed mb-4">
-                        My mother, <a href="https://www.linkedin.com/in/kirtisr/" target="_blank" rel="noopener noreferrer" className="text-[#C2956E] font-semibold hover:underline">Mrs. Kirti Ramekar</a>, a retired school principal and sustainability advocate, has preserved this project to this day. She recognised the tremendous effort I invested in it and understood that it represented more than just academic work, it was the important part of my environmental journey.
+                        My mother, a retired school principal and sustainability advocate, has preserved this project to this day. She recognised the tremendous effort I invested in it and understood that it represented more than just academic work, it was the important part of my environmental journey.
                     </p>
-                    <p className="text-gray-700 leading-relaxed italic">
+                    <p className="text-gray-700 leading-relaxed italic mb-6">
                         "This project wasn't just about collecting information; it was about understanding my responsibility to the planet. Every article pasted, every poem included, deepened my commitment to environmental stewardship."
                     </p>
+
+                    {/* Mother's Profile Card */}
+                    <div className="bg-white rounded-xl p-6 border-2 border-[#C2956E]/30 mt-6">
+                        <div className="flex items-center justify-between flex-wrap gap-4">
+                            <div>
+                                <h4 className="text-xl font-bold text-[#2C2C2C] mb-2">Mrs. Kirti Ramekar</h4>
+                                <p className="text-sm text-gray-600 mb-3">
+                                    Retired School Principal & Sustainability Advocate
+                                </p>
+                                <p className="text-sm text-gray-700 italic">
+                                    To learn more about her, visit her LinkedIn profile
+                                </p>
+                            </div>
+                            <a
+                                href="https://www.linkedin.com/in/kirtisr/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center gap-2 px-6 py-3 bg-[#0A66C2] text-white rounded-lg font-semibold hover:bg-[#004182] transition-all transform hover:scale-105 shadow-md hover:shadow-lg"
+                            >
+                                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                                </svg>
+                                Visit LinkedIn Profile
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
