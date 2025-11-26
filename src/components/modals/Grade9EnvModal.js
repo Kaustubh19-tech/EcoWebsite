@@ -148,6 +148,75 @@ export default function Grade9EnvModal({ onClose }) {
                 </div>
             </div>
 
+            {/* Project Pages - Zigzag Layout */}
+            <div className="mb-10 space-y-8">
+                <h3 className="text-2xl font-bold text-[#A67C52] mb-6 flex items-center gap-2">
+                    <FileText className="w-6 h-6" />
+                    Inside the Project
+                </h3>
+
+                {/* Page 1 - Translation LEFT, Image RIGHT */}
+                <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-[#C2956E]/20">
+                    <div className="grid md:grid-cols-2 gap-8 items-center">
+                        {/* Translation */}
+                        <div className="space-y-4 order-2 md:order-1">
+                            <div className="bg-gradient-to-r from-[#C2956E]/10 to-[#A67C52]/10 rounded-xl p-6">
+                                <h4 className="text-lg font-bold text-[#A67C52] mb-4">Project Details (Page 1):</h4>
+                                <div className="space-y-3 text-gray-700">
+                                    <p><strong>Name:</strong> Kaustubh Shrikant Ramekar</p>
+                                    <p><strong>Subject:</strong> Creating Environmental Education</p>
+                                    <p><strong>Class:</strong> 9th B</p>
+                                    <p><strong>School:</strong> Shri Saibaba High School, Nagpur</p>
+                                    <p><strong>Objective:</strong> To understand various environmental topics through different media sources</p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* Image */}
+                        <div className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow order-1 md:order-2">
+                            <img
+                                src="/grade9-page1.jpg"
+                                alt="Project details page"
+                                className="w-full h-auto object-cover"
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                {/* Page 2 - Image LEFT, Translation RIGHT */}
+                <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-[#C2956E]/20">
+                    <div className="grid md:grid-cols-2 gap-8 items-center">
+                        {/* Image */}
+                        <div className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow">
+                            <img
+                                src="/grade9-page2.jpg"
+                                alt="Environmental poems page"
+                                className="w-full h-auto object-cover"
+                            />
+                        </div>
+                        {/* Translation */}
+                        <div className="space-y-4">
+                            <div className="bg-gradient-to-r from-[#C2956E]/10 to-[#A67C52]/10 rounded-xl p-6">
+                                <h4 className="text-lg font-bold text-[#A67C52] mb-4">Environmental Poems (Page 2):</h4>
+                                <div className="space-y-3 text-gray-700">
+                                    <div>
+                                        <p className="font-semibold text-[#C2956E] mb-2">Content Includes:</p>
+                                        <ul className="list-disc list-inside space-y-1 text-sm">
+                                            <li>Poem on Environmental Conservation</li>
+                                            <li>Verses about protecting trees and nature</li>
+                                            <li>Messages on sustainability and eco-friendly living</li>
+                                            <li>Illustrated with hand-drawn decorative borders featuring leaves and vines</li>
+                                        </ul>
+                                    </div>
+                                    <p className="text-sm italic">
+                                        This page showcases beautifully illustrated environmental poetry collected from various sources, demonstrating the artistic and literary aspects of environmental awareness.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             {/* Legacy */}
             <div className="mb-6">
                 <h3 className="text-2xl font-bold text-[#A67C52] mb-4 flex items-center gap-2">
