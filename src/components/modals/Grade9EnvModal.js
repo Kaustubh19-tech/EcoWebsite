@@ -106,6 +106,48 @@ export default function Grade9EnvModal({ onClose }) {
                 </div>
             </div>
 
+            {/* Project Cover */}
+            <div className="mb-10">
+                <h3 className="text-2xl font-bold text-[#A67C52] mb-6 flex items-center gap-2">
+                    <BookOpen className="w-6 h-6" />
+                    The Original Project
+                </h3>
+                <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-[#C2956E]/20">
+                    <div className="grid md:grid-cols-2 gap-8 items-start">
+                        {/* Image */}
+                        <div className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow">
+                            <img
+                                src="/grade9-env-cover.jpg"
+                                alt="Environmental Education Project Cover"
+                                className="w-full h-auto object-cover"
+                            />
+                        </div>
+                        {/* Translation */}
+                        <div className="space-y-4">
+                            <div className="bg-gradient-to-r from-[#C2956E]/10 to-[#A67C52]/10 rounded-xl p-6">
+                                <h4 className="text-lg font-bold text-[#A67C52] mb-3">Title (Hindi/Marathi):</h4>
+                                <p className="text-3xl font-bold text-[#2C2C2C] mb-4" style={{ fontFamily: 'serif' }}>
+                                    पर्यावरण शिक्षण
+                                </p>
+                                <h4 className="text-lg font-bold text-[#A67C52] mb-3">English Translation:</h4>
+                                <p className="text-3xl font-bold text-[#C2956E]">
+                                    Environmental Education
+                                </p>
+                            </div>
+                            <div className="bg-[#C2956E]/5 rounded-xl p-6">
+                                <h4 className="text-sm font-bold text-[#A67C52] mb-2">Author:</h4>
+                                <p className="text-xl font-semibold text-[#2C2C2C]">
+                                    Kaustubh Shrikant Ramekar
+                                </p>
+                            </div>
+                            <p className="text-sm text-gray-600 italic">
+                                This carefully preserved project book contains months of dedicated research, showcasing hand-curated articles, illustrations, and environmental insights from various sources.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             {/* Legacy */}
             <div className="mb-6">
                 <h3 className="text-2xl font-bold text-[#A67C52] mb-4 flex items-center gap-2">
