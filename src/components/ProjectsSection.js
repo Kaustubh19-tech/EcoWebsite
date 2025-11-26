@@ -24,9 +24,9 @@ export default function ProjectsSection() {
     },
     {
       icon: Wind,
-      title: "Renewable Energy Drive",
-      description: "Installing solar panels and wind turbines in off-grid villages, bringing sustainable energy to remote areas and reducing carbon footprint.",
-      impact: "15 villages powered",
+      title: "9th Grade Environmental Education Project",
+      description: "Completed an extensive environmental education project involving comprehensive research and curation. Reviewed 60+ newspapers, 25+ magazines and comics, and 10+ environmental books to collect articles, pictures, poems, and news clippings emphasising nature conservation, sustainability, biodiversity, and protection of flora and fauna. Carefully organised and pasted materials into a drawing book—preserved by my mother, a retired school principal and sustainability advocate.",
+      impact: "95+ sources curated",
       color: "from-[#C2956E] to-[#A67C52]",
       hasDetails: false
     },
