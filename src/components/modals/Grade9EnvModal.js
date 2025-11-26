@@ -164,9 +164,9 @@ export default function Grade9EnvModal({ onClose }) {
                                 <h4 className="text-lg font-bold text-[#A67C52] mb-4">Project Details (Page 1):</h4>
                                 <div className="space-y-3 text-gray-700">
                                     <p><strong>Name:</strong> Kaustubh Shrikant Ramekar</p>
-                                    <p><strong>Subject:</strong> Creating Environmental Education</p>
+                                    <p><strong>Subject:</strong> Environmental Education Through Pictures</p>
                                     <p><strong>Class:</strong> 9th B</p>
-                                    <p><strong>School:</strong> Shri Saibaba High School, Nagpur</p>
+                                    <p><strong>School:</strong> Somalwar High School, Khamla, Nagpur</p>
                                     <p><strong>Objective:</strong> To understand various environmental topics through different media sources</p>
                                 </div>
                             </div>
