@@ -167,7 +167,7 @@ export default function Grade9EnvModal({ onClose }) {
                                     <p><strong>Subject:</strong> Environmental Education Through Pictures</p>
                                     <p><strong>Class:</strong> 9th B</p>
                                     <p><strong>School:</strong> Somalwar High School, Khamla, Nagpur</p>
-                                    <p><strong>Objective:</strong> To understand various environmental topics through different media sources</p>
+                                    <p><strong>Objective:</strong> To understand various environmental topics through pictures</p>
                                 </div>
                             </div>
                         </div>
