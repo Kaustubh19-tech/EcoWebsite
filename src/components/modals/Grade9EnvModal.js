@@ -236,7 +236,7 @@ export default function Grade9EnvModal({ onClose }) {
                                     </div>
                                     <div className="bg-white/50 p-3 rounded">
                                         <p className="font-bold text-[#C2956E] mb-2">Bottom Label:</p>
-                                        <p className="font-semibold">"Pictures of Countryside"</p>
+                                        <p className="font-semibold">"Components of Environment"</p>
                                     </div>
                                     <p className="font-semibold mt-3">Visual Content:</p>
                                     <ul className="list-disc list-inside text-xs space-y-1">
