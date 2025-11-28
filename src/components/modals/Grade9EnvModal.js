@@ -113,9 +113,9 @@ export default function Grade9EnvModal({ onClose }) {
                     The Original Project
                 </h3>
                 <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-[#C2956E]/20">
-                    <div className="grid md:grid-cols-2 gap-8 items-start">
+                    <div className="grid md:grid-cols-5 gap-8 items-start">
                         {/* Image */}
-                        <div className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow">
+                        <div className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow md:col-span-3">
                             <img
                                 src="/grade9-env-cover.jpg"
                                 alt="Environmental Education Project Cover"
@@ -123,7 +123,7 @@ export default function Grade9EnvModal({ onClose }) {
                             />
                         </div>
                         {/* Translation */}
-                        <div className="space-y-4">
+                        <div className="space-y-4 md:col-span-2">
                             <div className="bg-gradient-to-r from-[#C2956E]/10 to-[#A67C52]/10 rounded-xl p-6">
                                 <h4 className="text-lg font-bold text-[#A67C52] mb-3">Title (Hindi/Marathi):</h4>
                                 <p className="text-3xl font-bold text-[#2C2C2C] mb-4" style={{ fontFamily: 'serif' }}>
@@ -157,9 +157,9 @@ export default function Grade9EnvModal({ onClose }) {
 
                 {/* Page 1 - Translation LEFT, Image RIGHT */}
                 <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-[#C2956E]/20">
-                    <div className="grid md:grid-cols-2 gap-8 items-center">
+                    <div className="grid md:grid-cols-5 gap-8 items-center">
                         {/* Translation */}
-                        <div className="space-y-4 order-2 md:order-1">
+                        <div className="space-y-4 order-2 md:order-1 md:col-span-2">
                             <div className="bg-gradient-to-r from-[#C2956E]/10 to-[#A67C52]/10 rounded-xl p-6">
                                 <h4 className="text-lg font-bold text-[#A67C52] mb-4">Project Details (Page 1):</h4>
                                 <div className="space-y-3 text-gray-700">
@@ -172,7 +172,7 @@ export default function Grade9EnvModal({ onClose }) {
                             </div>
                         </div>
                         {/* Image */}
-                        <div className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow order-1 md:order-2">
+                        <div className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow order-1 md:order-2 md:col-span-3">
                             <img
                                 src="/grade9-page1.jpg"
                                 alt="Project details page"
@@ -184,9 +184,9 @@ export default function Grade9EnvModal({ onClose }) {
 
                 {/* Page 2 - Image LEFT, Translation RIGHT */}
                 <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-[#C2956E]/20">
-                    <div className="grid md:grid-cols-2 gap-8 items-center">
+                    <div className="grid md:grid-cols-5 gap-8 items-center">
                         {/* Image */}
-                        <div className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow">
+                        <div className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow md:col-span-3">
                             <img
                                 src="/grade9-page2.jpg"
                                 alt="Environmental poems page"
@@ -194,7 +194,7 @@ export default function Grade9EnvModal({ onClose }) {
                             />
                         </div>
                         {/* Translation */}
-                        <div className="space-y-4">
+                        <div className="space-y-4 md:col-span-2">
                             <div className="bg-gradient-to-r from-[#C2956E]/10 to-[#A67C52]/10 rounded-xl p-6">
                                 <h4 className="text-lg font-bold text-[#A67C52] mb-4">Environmental Poems (Page 2):</h4>
                                 <div className="space-y-3 text-gray-700">
