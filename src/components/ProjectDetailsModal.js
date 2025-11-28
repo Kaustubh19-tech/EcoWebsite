@@ -5,26 +5,13 @@ import Grade9EnvModal from './modals/Grade9EnvModal';
 
 export default function ProjectDetailsModal({ projectId, onClose }) {
     if (!projectId) return null;
+    <X className="w-6 h-6 text-gray-600" />
+                </button >
 
-    return (
-        <div
-            className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm"
-            onClick={onClose}
-        >
-            <div
-                className="bg-white rounded-3xl shadow-2xl w-full max-w-5xl max-h-[90vh] overflow-y-auto relative"
-                onClick={(e) => e.stopPropagation()}
-            >
-                <button
-                    onClick={onClose}
-                    className="sticky top-4 float-right mr-4 mt-4 p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors z-10"
-                >
-                    <X className="w-6 h-6 text-gray-600" />
-                </button>
-
-                {projectId === 'pune-waste' && <PuneWasteModal onClose={onClose} />}
-                {projectId === 'grade9-env' && <Grade9EnvModal onClose={onClose} />}
-            </div>
-        </div>
+        { projectId === 'pune-waste' && <PuneWasteModal onClose={onClose} />
+}
+{ projectId === 'grade9-env' && <Grade9EnvModal onClose={onClose} /> }
+            </div >
+        </div >
     );
 }
