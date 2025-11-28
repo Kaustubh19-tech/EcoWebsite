@@ -196,20 +196,19 @@ export default function Grade9EnvModal({ onClose }) {
                         {/* Translation */}
                         <div className="space-y-4 md:col-span-1">
                             <div className="bg-gradient-to-r from-[#C2956E]/10 to-[#A67C52]/10 rounded-xl p-6">
-                                <h4 className="text-lg font-bold text-[#A67C52] mb-4">Environmental Poems (Page 2):</h4>
-                                <div className="space-y-3 text-gray-700">
-                                    <div>
-                                        <p className="font-semibold text-[#C2956E] mb-2">Content Includes:</p>
-                                        <ul className="list-disc list-inside space-y-1 text-sm">
-                                            <li>Poem on Environmental Conservation</li>
-                                            <li>Verses about protecting trees and nature</li>
-                                            <li>Messages on sustainability and eco-friendly living</li>
-                                            <li>Illustrated with hand-drawn decorative borders featuring leaves and vines</li>
-                                        </ul>
+                                <h4 className="text-lg font-bold text-[#A67C52] mb-4">Word-to-Word Translation (Page 2):</h4>
+                                <div className="space-y-3 text-gray-700 text-sm">
+                                    <div className="bg-white/50 p-3 rounded">
+                                        <p className="font-bold text-[#C2956E] mb-2">Main Heading (Hindi):</p>
+                                        <p className="italic mb-1">"कथा पर्यावरणाची"</p>
+                                        <p className="font-semibold">Translation: "Story of Environment"</p>
                                     </div>
-                                    <p className="text-sm italic">
-                                        This page showcases beautifully illustrated environmental poetry collected from various sources, demonstrating the artistic and literary aspects of environmental awareness.
-                                    </p>
+                                    <div className="bg-white/50 p-3 rounded">
+                                        <p className="font-bold text-[#C2956E] mb-2">Two Poems Featured:</p>
+                                        <p><strong>1. "कथा पर्यावरणाची"</strong> (Story of Environment)</p>
+                                        <p><strong>2. "प्राणी जग्गे वेळापरिजातेने झाके बनाओ"</strong> (Let's make trees and protect environment)</p>
+                                    </div>
+                                    <p className="italic">Beautifully illustrated with hand-drawn vine and leaf borders around the poems.</p>
                                 </div>
                             </div>
                         </div>
@@ -230,15 +229,24 @@ export default function Grade9EnvModal({ onClose }) {
                         {/* Translation */}
                         <div className="space-y-4 md:col-span-1">
                             <div className="bg-gradient-to-r from-[#C2956E]/10 to-[#A67C52]/10 rounded-xl p-6">
-                                <h4 className="text-lg font-bold text-[#A67C52] mb-4">Environmental Themes (Page 3):</h4>
-                                <div className="space-y-3 text-gray-700">
-                                    <p className="font-semibold text-[#C2956E] mb-2">Topics illustrated:</p>
-                                    <ul className="list-disc list-inside space-y-1 text-sm">
-                                        <li>Village life and environment</li>
-                                        <li>Health and cleanliness</li>
-                                        <li>Physical fitness and exercise</li>
-                                        <li>Agriculture and nature</li>
-                                        <li>Rural tourism imagery</li>
+                                <h4 className="text-lg font-bold text-[#A67C52] mb-4">Word-to-Word Translation (Page 3):</h4>
+                                <div className="space-y-3 text-gray-700 text-sm">
+                                    <div className="bg-white/50 p-3 rounded">
+                                        <p className="font-bold text-[#C2956E] mb-2">Top Text (Hindi):</p>
+                                        <p className="italic mb-1">"चित्र क्र. ३"</p>
+                                        <p className="font-semibold">Translation: "Picture No. 3"</p>
+                                    </div>
+                                    <div className="bg-white/50 p-3 rounded">
+                                        <p className="font-bold text-[#C2956E] mb-2">Bottom Text (Hindi):</p>
+                                        <p className="italic mb-1">"पायोयेरगाचे अंके"</p>
+                                        <p className="font-semibold">Translation: "Pictures of Countryside"</p>
+                                    </div>
+                                    <p className="font-semibold mt-3">Visual Content:</p>
+                                    <ul className="list-disc list-inside text-xs space-y-1">
+                                        <li>Village scene with houses and trees</li>
+                                        <li>Daily life items and home goods</li>
+                                        <li>Health and exercise illustrations</li>
+                                        <li>Agricultural and natural scenes</li>
                                     </ul>
                                 </div>
                             </div>
@@ -252,17 +260,23 @@ export default function Grade9EnvModal({ onClose }) {
                         {/* Translation */}
                         <div className="space-y-4 order-2 md:order-1 md:col-span-1">
                             <div className="bg-gradient-to-r from-[#C2956E]/10 to-[#A67C52]/10 rounded-xl p-6">
-                                <h4 className="text-lg font-bold text-[#A67C52] mb-4">Environmental Impact (Page 4):</h4>
+                                <h4 className="text-lg font-bold text-[#A67C52] mb-4">Word-to-Word Translation (Page 4):</h4>
                                 <div className="space-y-2 text-gray-700 text-sm">
-                                    <p className="font-semibold text-[#C2956E]">Key Message:</p>
-                                    <p className="italic">"Impact of pollution on humans, Impact on environment!"</p>
-                                    <p className="font-semibold text-[#C2956E] mt-3">Themes:</p>
-                                    <ul className="list-disc list-inside space-y-1">
-                                        <li>Pollution effects on environment</li>
-                                        <li>Factory emissions and urban pollution</li>
-                                        <li>Environmental degradation</li>
-                                        <li>Call to action against pollution</li>
-                                    </ul>
+                                    <div className="bg-white/50 p-3 rounded mb-3">
+                                        <p className="font-bold text-[#C2956E] mb-2">Main Slogan (Marathi/Hindi):</p>
+                                        <p className="italic mb-1">"प्रदूषणावर मात, पर्यावरणाशी साथ!"</p>
+                                        <p className="font-semibold">Translation: "Victory over pollution, Support to environment!"</p>
+                                    </div>
+                                    <div className="bg-white/50 p-3 rounded">
+                                        <p className="font-bold text-[#C2956E] mb-2">Poem Excerpt (Hindi):</p>
+                                        <p className="italic text-xs">"निसर्गाची दिधली साख आहे..."</p>
+                                        <p className="font-semibold text-xs">About preserving nature's gift...</p>
+                                    </div>
+                                    <div className="bg-white/50 p-3 rounded mt-2">
+                                        <p className="font-bold text-[#C2956E] mb-1">Bottom Message:</p>
+                                        <p className="italic text-xs">"वाहनांचा वापर टाळा प्रदूषणाला बेरोला उतावा!"</p>
+                                        <p className="font-semibold text-xs">"Avoid vehicle use, Bring down pollution!"</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -291,16 +305,21 @@ export default function Grade9EnvModal({ onClose }) {
                         {/* Translation */}
                         <div className="space-y-4 md:col-span-1">
                             <div className="bg-gradient-to-r from-[#C2956E]/10 to-[#A67C52]/10 rounded-xl p-6">
-                                <h4 className="text-lg font-bold text-[#A67C52] mb-4">Pollution Themes (Page 5):</h4>
+                                <h4 className="text-lg font-bold text-[#A67C52] mb-4">Word-to-Word Translation (Page 5):</h4>
                                 <div className="space-y-2 text-gray-700 text-sm">
-                                    <p className="font-semibold text-[#C2956E]">Visual Topics:</p>
-                                    <ul className="list-disc list-inside space-y-1">
-                                        <li>Water pollution scenes</li>
-                                        <li>Industrial pollution</li>
-                                        <li>Community environmental care</li>
-                                        <li>Agricultural landscapes</li>
-                                        <li>Urban vs rural environments</li>
+                                    <p className="font-bold text-[#C2956E] mb-2">What This Page Shows:</p>
+                                    <div className="bg-white/50 p-2 rounded mb-2">
+                                        <p className="text-xs">Multiple illustrations of environmental pollution scenes including:</p>
+                                    </div>
+                                    <ul className="list-disc list-inside space-y-1 text-xs">
+                                        <li>Water pollution with people bathing/washing</li>
+                                        <li>Industrial pollution from factories</li>
+                                        <li>Air pollution from vehicles and emissions</li>
+                                        <li>Community gathering and environmental activities</li>
+                                        <li>Agricultural fields and farming scenes</li>
+                                        <li>Contrast between polluted and clean environments</li>
                                     </ul>
+                                    <p className="italic text-xs mt-2">Visual representation of various types of environmental pollution and their impact on daily life.</p>
                                 </div>
                             </div>
                         </div>
@@ -313,15 +332,25 @@ export default function Grade9EnvModal({ onClose }) {
                         {/* Translation */}
                         <div className="space-y-4 order-2 md:order-1 md:col-span-1">
                             <div className="bg-gradient-to-r from-[#C2956E]/10 to-[#A67C52]/10 rounded-xl p-6">
-                                <h4 className="text-lg font-bold text-[#A67C52] mb-4">Conservation Topics (Page 6):</h4>
+                                <h4 className="text-lg font-bold text-[#A67C52] mb-4">Word-to-Word Translation (Page 6):</h4>
                                 <div className="space-y-2 text-gray-700 text-sm">
-                                    <p className="font-semibold text-[#C2956E]">Main Themes:</p>
-                                    <p className="italic mb-2">"Pollution of population growth, Conservation of nature!"</p>
-                                    <ul className="list-disc list-inside space-y-1">
-                                        <li>Population-environment balance</li>
-                                        <li>Water conservation (झाडे पश्र.पद्धत) </li>
-                                        <li>Global population - 6 billion</li>
-                                        <li>Earth's water resources</li>
+                                    <div className="bg-white/50 p-3 rounded mb-3">
+                                        <p className="font-bold text-[#C2956E] mb-2">Top Heading (Marathi):</p>
+                                        <p className="italic mb-1">"लोकसंख्या वाढीचे प्रदुषण, निसर्गाचे करावे संरक्षण!"</p>
+                                        <p className="font-semibold">"Pollution of population growth, Protect nature!"</p>
+                                    </div>
+                                    <div className="bg-white/50 p-3 rounded mb-2">
+                                        <p className="font-bold text-[#C2956E] mb-2">Middle Text (Marathi):</p>
+                                        <p className="italic mb-1">"पाणी जमीन - झाडे पश्र.पद्धत अप्राप्या ठीवसाही राख २ ६ वा!"</p>
+                                        <p className="font-semibold text-xs">"Water conservation - Save 6 billion!"</p>
+                                    </div>
+                                    <p className="font-semibold text-xs mt-2">Diagrams Show:</p>
+                                    <ul className="list-disc list-inside text-xs space-y-1">
+                                        <li>Population distribution across continents</li>
+                                        <li>Balance between industry and environment</li>
+                                        <li>Global population (~6 billion)</li>
+                                        <li>Water conservation methods</li>
+                                        <li>Cross-section of Earth's water resources</li>
                                     </ul>
                                 </div>
                             </div>
@@ -351,16 +380,24 @@ export default function Grade9EnvModal({ onClose }) {
                         {/* Translation */}
                         <div className="space-y-4 md:col-span-1">
                             <div className="bg-gradient-to-r from-[#C2956E]/10 to-[#A67C52]/10 rounded-xl p-6">
-                                <h4 className="text-lg font-bold text-[#A67C52] mb-4">Environmental Systems (Page 7):</h4>
+                                <h4 className="text-lg font-bold text-[#A67C52] mb-4">Word-to-Word Translation (Page 7):</h4>
                                 <div className="space-y-2 text-gray-700 text-sm">
-                                    <p className="font-semibold text-[#C2956E]">Concepts illustrated:</p>
-                                    <ul className="list-disc list-inside space-y-1">
-                                        <li>Ecosystem flowcharts</li>
-                                        <li>Environmental interdependence</li>
-                                        <li>Agricultural ecology</li>
-                                        <li>Natural resource cycles</li>
-                                        <li>Environmental protection systems</li>
-                                    </ul>
+                                    <p className="font-bold text-[#C2956E] mb-2">Three Flowchart Diagrams:</p>
+                                    <div className="bg-white/50 p-2 rounded mb-2">
+                                        <p className="font-semibold text-xs mb-1">Diagram 1 (Top):</p>
+                                        <p className="italic text-xs">"संतुलित पोषण तत्वसंख"</p>
+                                        <p className="text-xs">"Balanced nutrition elements" - Shows ecosystem balance</p>
+                                    </div>
+                                    <div className="bg-white/50 p-2 rounded mb-2">
+                                        <p className="font-semibold text-xs mb-1">Diagram 2 (Middle):</p>
+                                        <p className="italic text-xs">"आंग्लवायने फळांशीच गुतखळीपामां"</p>
+                                        <p className="text-xs">"Agricultural interdependencies" - Shows farming cycles</p>
+                                    </div>
+                                    <div className="bg-white/50 p-2 rounded">
+                                        <p className="font-semibold text-xs mb-1">Diagram 3 (Bottom):</p>
+                                        <p className="italic text-xs">"सृतिच्या वातीयाची करालो"</p>
+                                        <p className="text-xs">"Environmental protection systems" - Shows conservation methods</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
