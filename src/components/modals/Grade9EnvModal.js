@@ -215,6 +215,157 @@ export default function Grade9EnvModal({ onClose }) {
                         </div>
                     </div>
                 </div>
+
+                {/* Page 3 - Image LEFT, Translation RIGHT */}
+                <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-[#C2956E]/20">
+                    <div className="grid md:grid-cols-5 gap-8 items-center">
+                        {/* Image */}
+                        <div className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow md:col-span-4">
+                            <img
+                                src="/grade9-page3.jpg"
+                                alt="Environmental themes and health illustrations"
+                                className="w-full h-auto object-cover"
+                            />
+                        </div>
+                        {/* Translation */}
+                        <div className="space-y-4 md:col-span-1">
+                            <div className="bg-gradient-to-r from-[#C2956E]/10 to-[#A67C52]/10 rounded-xl p-6">
+                                <h4 className="text-lg font-bold text-[#A67C52] mb-4">Environmental Themes (Page 3):</h4>
+                                <div className="space-y-3 text-gray-700">
+                                    <p className="font-semibold text-[#C2956E] mb-2">Topics illustrated:</p>
+                                    <ul className="list-disc list-inside space-y-1 text-sm">
+                                        <li>Village life and environment</li>
+                                        <li>Health and cleanliness</li>
+                                        <li>Physical fitness and exercise</li>
+                                        <li>Agriculture and nature</li>
+                                        <li>Rural tourism imagery</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Page 4 - Translation LEFT, Image RIGHT */}
+                <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-[#C2956E]/20">
+                    <div className="grid md:grid-cols-5 gap-8 items-center">
+                        {/* Translation */}
+                        <div className="space-y-4 order-2 md:order-1 md:col-span-1">
+                            <div className="bg-gradient-to-r from-[#C2956E]/10 to-[#A67C52]/10 rounded-xl p-6">
+                                <h4 className="text-lg font-bold text-[#A67C52] mb-4">Environmental Impact (Page 4):</h4>
+                                <div className="space-y-2 text-gray-700 text-sm">
+                                    <p className="font-semibold text-[#C2956E]">Key Message:</p>
+                                    <p className="italic">"Impact of pollution on humans, Impact on environment!"</p>
+                                    <p className="font-semibold text-[#C2956E] mt-3">Themes:</p>
+                                    <ul className="list-disc list-inside space-y-1">
+                                        <li>Pollution effects on environment</li>
+                                        <li>Factory emissions and urban pollution</li>
+                                        <li>Environmental degradation</li>
+                                        <li>Call to action against pollution</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        {/* Image */}
+                        <div className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow order-1 md:order-2 md:col-span-4">
+                            <img
+                                src="/grade9-page4.jpg"
+                                alt="Pollution impact illustrations"
+                                className="w-full h-auto object-cover"
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                {/* Page 5 - Image LEFT, Translation RIGHT */}
+                <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-[#C2956E]/20">
+                    <div className="grid md:grid-cols-5 gap-8 items-center">
+                        {/* Image */}
+                        <div className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow md:col-span-4">
+                            <img
+                                src="/grade9-page5.jpg"
+                                alt="Environmental pollution illustrations"
+                                className="w-full h-auto object-cover"
+                            />
+                        </div>
+                        {/* Translation */}
+                        <div className="space-y-4 md:col-span-1">
+                            <div className="bg-gradient-to-r from-[#C2956E]/10 to-[#A67C52]/10 rounded-xl p-6">
+                                <h4 className="text-lg font-bold text-[#A67C52] mb-4">Pollution Themes (Page 5):</h4>
+                                <div className="space-y-2 text-gray-700 text-sm">
+                                    <p className="font-semibold text-[#C2956E]">Visual Topics:</p>
+                                    <ul className="list-disc list-inside space-y-1">
+                                        <li>Water pollution scenes</li>
+                                        <li>Industrial pollution</li>
+                                        <li>Community environmental care</li>
+                                        <li>Agricultural landscapes</li>
+                                        <li>Urban vs rural environments</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Page 6 - Translation LEFT, Image RIGHT */}
+                <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-[#C2956E]/20">
+                    <div className="grid md:grid-cols-5 gap-8 items-center">
+                        {/* Translation */}
+                        <div className="space-y-4 order-2 md:order-1 md:col-span-1">
+                            <div className="bg-gradient-to-r from-[#C2956E]/10 to-[#A67C52]/10 rounded-xl p-6">
+                                <h4 className="text-lg font-bold text-[#A67C52] mb-4">Conservation Topics (Page 6):</h4>
+                                <div className="space-y-2 text-gray-700 text-sm">
+                                    <p className="font-semibold text-[#C2956E]">Main Themes:</p>
+                                    <p className="italic mb-2">"Pollution of population growth, Conservation of nature!"</p>
+                                    <ul className="list-disc list-inside space-y-1">
+                                        <li>Population-environment balance</li>
+                                        <li>Water conservation (झाडे पश्र.पद्धत) </li>
+                                        <li>Global population - 6 billion</li>
+                                        <li>Earth's water resources</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        {/* Image */}
+                        <div className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow order-1 md:order-2 md:col-span-4">
+                            <img
+                                src="/grade9-page6.jpg"
+                                alt="Population and conservation diagrams"
+                                className="w-full h-auto object-cover"
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                {/* Page 7 - Image LEFT, Translation RIGHT */}
+                <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-[#C2956E]/20">
+                    <div className="grid md:grid-cols-5 gap-8 items-center">
+                        {/* Image */}
+                        <div className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow md:col-span-4">
+                            <img
+                                src="/grade9-page7.jpg"
+                                alt="Environmental flowcharts and diagrams"
+                                className="w-full h-auto object-cover"
+                            />
+                        </div>
+                        {/* Translation */}
+                        <div className="space-y-4 md:col-span-1">
+                            <div className="bg-gradient-to-r from-[#C2956E]/10 to-[#A67C52]/10 rounded-xl p-6">
+                                <h4 className="text-lg font-bold text-[#A67C52] mb-4">Environmental Systems (Page 7):</h4>
+                                <div className="space-y-2 text-gray-700 text-sm">
+                                    <p className="font-semibold text-[#C2956E]">Concepts illustrated:</p>
+                                    <ul className="list-disc list-inside space-y-1">
+                                        <li>Ecosystem flowcharts</li>
+                                        <li>Environmental interdependence</li>
+                                        <li>Agricultural ecology</li>
+                                        <li>Natural resource cycles</li>
+                                        <li>Environmental protection systems</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             {/* Legacy */}
