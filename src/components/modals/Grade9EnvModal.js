@@ -236,11 +236,8 @@ export default function Grade9EnvModal({ onClose }) {
                         <div className="flex items-center justify-between flex-wrap gap-4">
                             <div>
                                 <h4 className="text-xl font-bold text-[#2C2C2C] mb-2">Mrs. Kirti Ramekar</h4>
-                                <p className="text-sm text-gray-600 mb-3">
+                                <p className="text-sm text-gray-600">
                                     Retired School Principal & Sustainability Advocate
-                                </p>
-                                <p className="text-sm text-gray-700 italic">
-                                    To learn more about her, visit her LinkedIn profile
                                 </p>
                             </div>
                             <a
