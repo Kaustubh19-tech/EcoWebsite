@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, BookOpen, Newspaper, FileText, Heart, Sparkles } from 'lucide-react';
+import { X } from 'lucide-react';
 import PuneWasteModal from './modals/PuneWasteModal';
 import Grade9EnvModal from './modals/Grade9EnvModal';
 
@@ -12,7 +12,7 @@ export default function ProjectDetailsModal({ projectId, onClose }) {
             onClick={onClose}
         >
             <div
-                className="bg-white rounded-3xl shadow-2xl w-full max-w-7xl max-h-[90vh] overflow-y-auto relative"
+                className="bg-white rounded-3xl shadow-2xl w-full max-w-[95vw] max-h-[95vh] overflow-y-auto relative"
                 onClick={(e) => e.stopPropagation()}
             >
                 <button
