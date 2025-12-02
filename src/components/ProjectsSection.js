@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Recycle, Droplets, Wind, Users } from 'lucide-react';
+import { Recycle, Brain, Wind, Users } from 'lucide-react';
 import ProjectDetailsModal from './ProjectDetailsModal';
 
 export default function ProjectsSection() {
@@ -16,12 +16,13 @@ export default function ProjectsSection() {
       projectId: "pune-waste"
     },
     {
-      icon: Droplets,
-      title: "Clean Water Access",
-      description: "Implementing rainwater harvesting systems and water purification solutions in rural communities, providing clean water to 3,000+ families.",
-      impact: "3,000+ families served",
+      icon: Brain,
+      title: "Evidexia: AI Sustainability Platform",
+      description: "Developed a revolutionary AI-powered sustainability compliance platform that automates ESG metric extraction from corporate reports. Transforms weeks of manual work into minutes with 90%+ accuracy, complete evidence citations, and 100% client-side privacy.",
+      impact: "30+ ESRS metrics automated",
       color: "from-[#4A7C9C] to-[#2D5B6E]",
-      hasDetails: false
+      hasDetails: true,
+      projectId: "evidexia"
     },
     {
       icon: Wind,

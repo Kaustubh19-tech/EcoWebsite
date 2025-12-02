@@ -2,6 +2,7 @@ import React from 'react';
 import { X } from 'lucide-react';
 import PuneWasteModal from './modals/PuneWasteModal';
 import Grade9EnvModal from './modals/Grade9EnvModal';
+import EvidexiaModal from './modals/EvidexiaModal';
 
 export default function ProjectDetailsModal({ projectId, onClose }) {
     if (!projectId) return null;
@@ -24,6 +25,7 @@ export default function ProjectDetailsModal({ projectId, onClose }) {
 
                 {projectId === 'pune-waste' && <PuneWasteModal onClose={onClose} />}
                 {projectId === 'grade9-env' && <Grade9EnvModal onClose={onClose} />}
+                {projectId === 'evidexia' && <EvidexiaModal onClose={onClose} />}
             </div>
         </div>
     );
