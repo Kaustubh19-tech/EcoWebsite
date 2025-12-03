@@ -9,6 +9,7 @@ import BritishLibrary from './pages/BritishLibrary';
 import MyClicks from './pages/MyClicks';
 import EcoVeterans from './pages/EcoVeterans';
 import RoyalSociety from './pages/RoyalSociety';
+import YogaOrphanages from './pages/YogaOrphanages';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/treasure" element={<Treasure />} />
         <Route path="/treasure/british-library" element={<BritishLibrary />} />
         <Route path="/treasure/royal-society" element={<RoyalSociety />} />
+        <Route path="/treasure/yoga-orphanages" element={<YogaOrphanages />} />
         <Route path="/treasure/my-clicks" element={<MyClicks />} />
         <Route path="/treasure/eco-veterans" element={<EcoVeterans />} />
         <Route path="/projects" element={<Projects />} />
