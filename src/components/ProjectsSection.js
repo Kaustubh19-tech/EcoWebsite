@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Recycle, Brain, Wind, Users } from 'lucide-react';
+import { Recycle, Brain, Wind, AlertTriangle } from 'lucide-react';
 import ProjectDetailsModal from './ProjectDetailsModal';
 
 export default function ProjectsSection() {
@@ -34,12 +34,13 @@ export default function ProjectsSection() {
       projectId: "grade9-env"
     },
     {
-      icon: Users,
-      title: "Zero Waste Communities",
-      description: "Establishing community composting centers and recycling hubs, diverting 10 tons of waste from landfills monthly through education and infrastructure.",
-      impact: "10 tons waste diverted/month",
+      icon: AlertTriangle,
+      title: "AI Early Warning Systems",
+      description: "Developing intelligent multi-agent AI systems for climate-vulnerable ecosystems. Transforming emergency response from reactive warnings to proactive protection through predictive risk mapping and automated interventions for flood prevention.",
+      impact: "Multi-agent AI protection",
       color: "from-[#8B9D83] to-[#6B7D63]",
-      hasDetails: false
+      hasDetails: true,
+      projectId: "ai-early-warning"
     }
   ];
 
