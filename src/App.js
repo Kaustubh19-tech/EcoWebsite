@@ -10,6 +10,7 @@ import MyClicks from './pages/MyClicks';
 import EcoVeterans from './pages/EcoVeterans';
 import RoyalSociety from './pages/RoyalSociety';
 import YogaOrphanages from './pages/YogaOrphanages';
+import VoluntaryWork from './pages/VoluntaryWork';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/treasure/yoga-orphanages" element={<YogaOrphanages />} />
         <Route path="/treasure/my-clicks" element={<MyClicks />} />
         <Route path="/treasure/eco-veterans" element={<EcoVeterans />} />
+        <Route path="/voluntary-work" element={<VoluntaryWork />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
     </Router>

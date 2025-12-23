@@ -4,6 +4,7 @@ export const createPageUrl = (pageName) => {
     'MyQuest': '/my-quest',
     'Projects': '/projects',
     'Treasure': '/treasure',
+    'VoluntaryWork': '/voluntary-work',
   };
   return pageMap[pageName] || '/';
 };
