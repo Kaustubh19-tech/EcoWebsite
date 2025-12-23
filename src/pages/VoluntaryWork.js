@@ -6,7 +6,12 @@ import { createPageUrl } from '../utils';
 export default function VoluntaryWork() {
     const voluntaryImages = [
         '/voluntary-work-1.jpg',
-        '/voluntary-work-2.jpg'
+        '/voluntary-work-2.jpg',
+        '/voluntary-work-3.jpg',
+        '/voluntary-work-4.jpg',
+        '/voluntary-work-5.jpg',
+        '/voluntary-work-6.jpg',
+        '/voluntary-work-7.jpg'
     ];
 
     return (
