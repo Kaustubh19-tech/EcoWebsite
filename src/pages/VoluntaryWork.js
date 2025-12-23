@@ -109,25 +109,13 @@ export default function VoluntaryWork() {
                         {voluntaryImages.map((image, index) => (
                             <div
                                 key={index}
-                                className="group relative rounded-2xl overflow-hidden shadow-xl transform hover:scale-105 transition-all duration-500"
+                                className="rounded-2xl overflow-hidden shadow-xl transform hover:scale-105 transition-all duration-500"
                             >
-                                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
                                 <img
                                     src={image}
                                     alt={`Voluntary yoga session at orphanage in Nagpur - ${index + 1}`}
                                     className="w-full h-72 object-cover"
                                 />
-                                <div className="absolute bottom-0 left-0 right-0 p-4 text-white z-20 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                                    <p className="text-sm font-semibold">
-                                        {index === 0 ? "🧘 Warrior pose demonstration" :
-                                            index === 1 ? "🙏 Mindfulness practice" :
-                                                index === 2 ? "🌟 Group session - stretching" :
-                                                    index === 3 ? "💪 Building focus & balance" :
-                                                        index === 4 ? "🧘‍♀️ Seated yoga posture" :
-                                                            index === 5 ? "✨ Group practice together" :
-                                                                "❤️ Empowering young lives"}
-                                    </p>
-                                </div>
                             </div>
                         ))}
                     </div>
