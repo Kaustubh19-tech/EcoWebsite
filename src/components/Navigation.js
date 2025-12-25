@@ -57,7 +57,7 @@ export default function Navigation() {
     { id: 'myquest', label: 'My Quest', type: 'link' },
     { id: 'treasure', label: 'Treasure', type: 'link' },
     { id: 'projects', label: 'Projects', type: 'scroll' },
-    { id: 'voluntary-work', label: 'Voluntary Work', type: 'link' },
+    { id: 'voluntary-work', label: 'PSR', type: 'link' },
     { id: 'linkedin', label: 'LinkedIn', type: 'external', url: 'https://www.linkedin.com/in/kr28' }
   ];
 

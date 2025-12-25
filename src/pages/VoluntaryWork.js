@@ -31,10 +31,10 @@ export default function VoluntaryWork() {
                     <div className="text-center max-w-4xl mx-auto">
                         <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-pink-100 to-purple-100 rounded-full mb-6">
                             <Heart className="w-5 h-5 text-pink-700" />
-                            <span className="text-sm font-semibold text-pink-700">Voluntary Work</span>
+                            <span className="text-sm font-semibold text-pink-700">Community Impact</span>
                         </div>
-                        <h1 className="text-5xl lg:text-6xl font-bold text-[#2C2C2C] mb-6">
-                            Yoga Teacher at <span className="text-[#3A6B35]">Orphanages</span>
+                        <h1 className="text-5xl lg:text-6xl font-bold text-[#2C2C2C] mb-6 leading-tight">
+                            Personal <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600">Social Responsibility</span> (PSR)
                         </h1>
                         <p className="text-lg text-gray-600 leading-relaxed">
                             Empowering young lives through the transformative practice of yoga - bringing wellness, mindfulness, and joy to children in orphanages across Nagpur
