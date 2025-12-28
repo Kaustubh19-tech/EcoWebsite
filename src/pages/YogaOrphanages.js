@@ -21,11 +21,11 @@ export default function YogaOrphanages() {
                 <div className="absolute bottom-20 left-10 w-96 h-96 bg-[#3A6B35]/5 rounded-full blur-3xl"></div>
                 <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
                     <Link
-                        to={createPageUrl('Treasure')}
+                        to="/voluntary-work"
                         className="inline-flex items-center gap-2 text-[#3A6B35] hover:text-[#2D5016] mb-8 transition-colors"
                     >
                         <ArrowLeft className="w-5 h-5" />
-                        <span className="font-medium">Back to Treasure</span>
+                        <span className="font-medium">Back to PSR</span>
                     </Link>
                     <div className="text-center max-w-4xl mx-auto">
                         <div className="inline-flex items-center gap-2 px-4 py-2 bg-green-100 rounded-full mb-6">

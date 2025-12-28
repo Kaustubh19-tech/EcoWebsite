@@ -11,6 +11,7 @@ import EcoVeterans from './pages/EcoVeterans';
 import RoyalSociety from './pages/RoyalSociety';
 import YogaOrphanages from './pages/YogaOrphanages';
 import VoluntaryWork from './pages/VoluntaryWork';
+import NagpurYoga from './pages/NagpurYoga';
 
 function App() {
   return (
@@ -21,10 +22,11 @@ function App() {
         <Route path="/treasure" element={<Treasure />} />
         <Route path="/treasure/british-library" element={<BritishLibrary />} />
         <Route path="/treasure/royal-society" element={<RoyalSociety />} />
-        <Route path="/treasure/yoga-orphanages" element={<YogaOrphanages />} />
         <Route path="/treasure/my-clicks" element={<MyClicks />} />
         <Route path="/treasure/eco-veterans" element={<EcoVeterans />} />
         <Route path="/voluntary-work" element={<VoluntaryWork />} />
+        <Route path="/voluntary-work/nagpur" element={<NagpurYoga />} />
+        <Route path="/voluntary-work/pune" element={<YogaOrphanages />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
     </Router>
