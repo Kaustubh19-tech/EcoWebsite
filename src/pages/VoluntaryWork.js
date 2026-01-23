@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowLeft, Heart, MapPin } from 'lucide-react';
+import { ArrowLeft, Heart, MapPin, Users, ExternalLink } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '../utils';
 
@@ -33,8 +33,8 @@ export default function VoluntaryWork() {
                 </div>
             </div>
 
-            {/* Subsections */}
-            <div className="max-w-5xl mx-auto px-6 lg:px-8 pb-24 space-y-8">
+            {/* Yoga Section */}
+            <div className="max-w-5xl mx-auto px-6 lg:px-8 pb-16 space-y-8">
                 <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
                     Teaching <span className="text-[#3A6B35]">Yoga at Orphanages</span>
                 </h2>
@@ -82,6 +82,45 @@ export default function VoluntaryWork() {
                         </div>
                     </section>
                 </Link>
+            </div>
+
+            {/* Technical Community Leadership Section */}
+            <div className="max-w-5xl mx-auto px-6 lg:px-8 pb-24 space-y-8">
+                <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
+                    Technical <span className="text-orange-600">Community Leadership</span>
+                </h2>
+
+                {/* AWS User Group UK Section */}
+                <section className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-all duration-300">
+                    <div className="flex items-start gap-6">
+                        <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-yellow-500 rounded-xl flex items-center justify-center flex-shrink-0 hover:scale-110 transition-transform duration-300">
+                            <Users className="w-8 h-8 text-white" />
+                        </div>
+                        <div className="flex-1">
+                            <h3 className="text-3xl font-bold text-[#2D5016] mb-2">
+                                Assistant Organiser
+                            </h3>
+                            <h4 className="text-xl font-semibold text-orange-600 mb-4">
+                                AWS User Group UK
+                            </h4>
+                            <p className="text-gray-600 leading-relaxed text-lg mb-6">
+                                I help coordinate events aimed at sharing deep technical insights, practical case studies, and real-world AWS implementation stories. My role includes supporting speakers, especially those from underrepresented backgrounds, curating session content, and maintaining strong community engagement. This work reflects my passion for improving cloud computing literacy across all skill levels.
+                            </p>
+                            <a
+                                href="https://www.meetup.com/awsuguk/members/?op=leaders"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-orange-500 to-yellow-500 text-white font-semibold rounded-lg hover:from-orange-600 hover:to-yellow-600 transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+                            >
+                                View Organisers on Meetup
+                                <ExternalLink className="w-5 h-5" />
+                            </a>
+                            <p className="text-sm text-gray-500 mt-3 italic">
+                                You can see my name as organiser on the official meetup page
+                            </p>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
     );
