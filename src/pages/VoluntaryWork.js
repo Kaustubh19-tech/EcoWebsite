@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowLeft, Heart, MapPin, Users, ExternalLink } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { createPageUrl } from '../utils';
+import { createPageUrl } from '../utils'; // PSR page utilities
 
 export default function VoluntaryWork() {
     return (
