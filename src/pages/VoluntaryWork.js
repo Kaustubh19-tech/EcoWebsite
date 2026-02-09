@@ -121,6 +121,35 @@ export default function VoluntaryWork() {
                         </div>
                     </div>
                 </section>
+
+                {/* AWS Volunteering Section */}
+                <section className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-all duration-300">
+                    <div className="flex items-start gap-6">
+                        <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-500 rounded-xl flex items-center justify-center flex-shrink-0 hover:scale-110 transition-transform duration-300">
+                            <Users className="w-8 h-8 text-white" />
+                        </div>
+                        <div className="flex-1">
+                            <h3 className="text-3xl font-bold text-[#2D5016] mb-2">
+                                AWS GetIT Ambassador
+                            </h3>
+                            <h4 className="text-xl font-semibold text-blue-600 mb-4">
+                                AWS Volunteering
+                            </h4>
+                            <p className="text-gray-600 leading-relaxed text-lg mb-6">
+                                As an AWS GetIT Ambassador, I volunteer my time to inspire and mentor students from underrepresented backgrounds, encouraging them to explore careers in technology and cloud computing. I help guide student teams through the process of designing app ideas to solve real-world problems, sharing my experience to build their confidence and digital skills.
+                            </p>
+                            <a
+                                href="https://aws.amazon.com/education/aws-getit/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-indigo-500 text-white font-semibold rounded-lg hover:from-blue-600 hover:to-indigo-600 transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+                            >
+                                Learn About AWS GetIT
+                                <ExternalLink className="w-5 h-5" />
+                            </a>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
     );
