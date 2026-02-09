@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowLeft, Heart, Users, Sparkles, Target } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { createPageUrl } from '../utils';
+// createPageUrl removed
 
 export default function YogaOrphanages() {
     const yogaImages = [

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowLeft, Book, Award, Camera, Users, Heart } from 'lucide-react';
+import { ArrowLeft, Book, Award, Camera, Users } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '../utils';
 

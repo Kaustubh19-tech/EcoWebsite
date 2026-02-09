@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Brain, X, ChevronDown, ChevronUp, Check, Target, TrendingUp, BarChart3, Shield, Zap } from 'lucide-react';
+import { Brain, ChevronDown, ChevronUp, Check, Target, TrendingUp, BarChart3, Shield, Zap } from 'lucide-react';
 
 export default function EvidexiaModal({ onClose }) {
     const [openSections, setOpenSections] = useState({

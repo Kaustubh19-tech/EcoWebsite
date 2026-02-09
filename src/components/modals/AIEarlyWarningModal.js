@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AlertTriangle, X, ChevronDown, ChevronUp, Eye, Shield, Zap, TrendingUp, Users, Brain, CheckCircle } from 'lucide-react';
+import { AlertTriangle, ChevronDown, ChevronUp, Eye, Shield, Zap, TrendingUp, Users, Brain, CheckCircle } from 'lucide-react';
 
 export default function AIEarlyWarningModal({ onClose }) {
     const [openSections, setOpenSections] = useState({

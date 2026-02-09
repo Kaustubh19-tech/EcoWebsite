@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Sprout, Heart, Globe, Leaf, Target, Scale, Zap, CheckCircle } from 'lucide-react';
+import { Leaf, Target, Scale, Zap } from 'lucide-react';
 
 export default function HeroSection() {
   return (
