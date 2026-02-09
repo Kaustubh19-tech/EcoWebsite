@@ -135,6 +135,18 @@ export default function VoluntaryWork() {
                             <p className="text-gray-600 leading-relaxed text-lg">
                                 I'm responsible for end to end event execution, from speaker curation to hosting, ensuring each session delivers meaningful insights and encourages interdisciplinary collaboration. This initiative represents a personal commitment to driving transparent, applied AI innovation in the UK.
                             </p>
+                            <a
+                                href="https://www.meetup.com/ai-signals-community/members/?op=leaders"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-indigo-500 text-white font-semibold rounded-lg hover:from-blue-600 hover:to-indigo-600 transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-0.5 mt-6"
+                            >
+                                View Organisers on Meetup
+                                <ExternalLink className="w-5 h-5" />
+                            </a>
+                            <p className="text-sm text-gray-500 mt-3 italic">
+                                You can see my name as organiser on the official meetup page
+                            </p>
                         </div>
                     </div>
                 </section>
