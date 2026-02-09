@@ -98,7 +98,7 @@ export default function VoluntaryWork() {
                         </div>
                         <div className="flex-1">
                             <h3 className="text-3xl font-bold text-[#2D5016] mb-2">
-                                Assistant Organiser
+                                Organiser
                             </h3>
                             <h4 className="text-xl font-semibold text-orange-600 mb-4">
                                 AWS User Group UK
