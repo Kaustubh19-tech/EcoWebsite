@@ -136,7 +136,7 @@ export default function ChiaConference2026() {
         </div>
 
         {/* Image Gallery */}
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="mt-16 grid grid-cols-1 gap-8">
           {[
             '/images/chia_conference_2026_debate_1.jpg',
             '/images/chia_conference_2026_debate_2.jpg',
