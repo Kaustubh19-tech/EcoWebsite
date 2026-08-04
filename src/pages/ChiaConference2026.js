@@ -39,14 +39,14 @@ export default function ChiaConference2026() {
                 <MapPin className="w-5 h-5 text-[#3A6B35] mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-sm text-gray-500">Venue</p>
-                  <p className="font-semibold">The Cambridge Union</p>
+                  <p className="font-semibold">The Cambridge Union, Cambridge, England</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <Landmark className="w-5 h-5 text-[#3A6B35] mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-sm text-gray-500">Organiser</p>
-                  <p className="font-semibold">Centre for Human-Inspired Artificial Intelligence (CHIA)</p>
+                  <p className="font-semibold">Centre for Human-Inspired Artificial Intelligence (CHIA), University of Cambridge</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -66,7 +66,7 @@ export default function ChiaConference2026() {
         <div className="bg-white rounded-2xl shadow-lg p-8 lg:p-12 space-y-8 text-lg text-gray-700 leading-relaxed">
 
           <p className="text-justify">
-            On 22 June, while the UK Parliament in Westminster was going through some of its most significant changes in recent memory, I was sitting at The Cambridge Union, an institution often nicknamed the "pre-parliament" for the generations of politicians, thinkers and debaters it has shaped. It felt fitting: on a day when the machinery of government was very much in the news, I was in a room built for exactly this kind of debate, about to spend a full day discussing how artificial intelligence is reshaping the world around us.
+            On 22 June, while the UK Parliament in Westminster was going through some of its most significant changes in recent memory, I was sitting at The Cambridge Union, an institution often nicknamed the "pre-parliament" for the generations of politicians, thinkers and debaters it has shaped. It felt fitting to be in a room built for exactly this kind of debate, about to spend a full day discussing how artificial intelligence is reshaping the world around us.
           </p>
 
           <p className="text-justify">
