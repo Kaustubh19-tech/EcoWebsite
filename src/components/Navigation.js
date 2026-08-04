@@ -58,6 +58,7 @@ export default function Navigation() {
     { id: 'treasure', label: 'Treasure', type: 'link' },
     { id: 'projects', label: 'Projects', type: 'scroll' },
     { id: 'voluntary-work', label: 'PSR', type: 'link' },
+    { id: 'blog', label: 'Blog', type: 'scroll' },
     { id: 'linkedin', label: 'LinkedIn', type: 'external', url: 'https://www.linkedin.com/in/kr28' }
   ];
 
