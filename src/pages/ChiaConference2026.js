@@ -135,6 +135,22 @@ export default function ChiaConference2026() {
 
         </div>
 
+        {/* Image Gallery */}
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
+          {[
+            '/images/chia_conference_2026_debate_1.jpg',
+            '/images/chia_conference_2026_debate_2.jpg',
+          ].map((img, index) => (
+            <div key={index} className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 bg-gray-50">
+              <img
+                src={img}
+                alt={`This House Believes debate at The Cambridge Union, CHIA Annual Conference 2026 ${index + 1}`}
+                className="w-full h-auto object-contain"
+              />
+            </div>
+          ))}
+        </div>
+
         <Link
           to={createPageUrl('Blog')}
           className="inline-flex items-center gap-2 text-[#3A6B35] hover:text-[#2D5016] mt-10 font-medium transition-colors"
