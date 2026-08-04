@@ -3,12 +3,6 @@ import { ArrowLeft, Newspaper, Calendar, MapPin, Landmark } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '../utils';
 
-const tags = [
-  'AI2026', 'CHIA', 'UniversityOfCambridge', 'ArtificialIntelligence',
-  'HumanCentredAI', 'AIEthics', 'ResponsibleAI', 'AIGovernance',
-  'AIForScience', 'TrustworthyAI', 'Debate',
-];
-
 export default function ChiaConference2026() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#FAF8F3] to-white">
@@ -72,11 +66,11 @@ export default function ChiaConference2026() {
         <div className="bg-white rounded-2xl shadow-lg p-8 lg:p-12 space-y-8 text-lg text-gray-700 leading-relaxed">
 
           <p className="text-justify">
-            On 22 June, while the UK Parliament just down the road was going through some of its most significant changes in recent memory, I was sitting at The Cambridge Union — an institution often nicknamed the "pre-parliament" for the generations of politicians, thinkers and debaters it has shaped. It felt fitting: on a day when the machinery of government was very much in the news, I was in a room built for exactly this kind of debate, about to spend a full day discussing how artificial intelligence is reshaping the world around us.
+            On 22 June, while the UK Parliament in Westminster was going through some of its most significant changes in recent memory, I was sitting at The Cambridge Union, an institution often nicknamed the "pre-parliament" for the generations of politicians, thinkers and debaters it has shaped. It felt fitting: on a day when the machinery of government was very much in the news, I was in a room built for exactly this kind of debate, about to spend a full day discussing how artificial intelligence is reshaping the world around us.
           </p>
 
           <p className="text-justify">
-            This year's CHIA Annual Conference, <em>AI for a Changing World</em>, took place at this historic venue at the heart of debate and intellectual exchange since 1815. The full-day conference featured keynote talks by leading figures in the field, alongside panel discussions on how AI is reshaping our world — from science and discovery to safety, human relationships, and careers. For the first time, the conference also hosted a Cambridge Union-style debate on a genuinely timely question: whether AI is strengthening or eroding human judgement.
+            This year's CHIA Annual Conference, <em>AI for a Changing World</em>, took place at this historic venue at the heart of debate and intellectual exchange since 1815. The full-day conference featured keynote talks by leading figures in the field, alongside panel discussions on how AI is reshaping our world: from science and discovery to safety, human relationships, and careers. For the first time, the conference also hosted a Cambridge Union-style debate on a genuinely timely question: whether AI is strengthening or eroding human judgement.
           </p>
 
           <h2 className="text-2xl font-bold text-[#2D5016] pt-4">Opening the Day</h2>
@@ -89,19 +83,19 @@ export default function ChiaConference2026() {
             The opening session, chaired by Dr Ramit Debnath, showcased how AI is helping researchers uncover new insights and advance scientific discovery across disciplines.
           </p>
           <p className="text-justify">
-            <strong>Professor Anil Madhavapeddy</strong> spoke about using self-supervised AI models to build "fingerprints" of locations from vast amounts of satellite imagery, without needing extensive labelled data — enabling scientists to monitor environmental change over time through applications like crop monitoring, biodiversity research, forest management and detecting environmental degradation.
+            <strong>Professor Anil Madhavapeddy</strong> spoke about using self-supervised AI models to build "fingerprints" of locations from vast amounts of satellite imagery, without needing extensive labelled data, enabling scientists to monitor environmental change over time through applications like crop monitoring, biodiversity research, forest management and detecting environmental degradation.
           </p>
           <p className="text-justify">
-            <strong>Dr Shruti Mishra</strong> presented work on reinforcement learning for stratified shear flows, where AI learns through interaction with fluid simulations to discover effective strategies for mixing complex fluid systems — promising applications in environmental and geophysical sciences, including atmospheric modelling.
+            <strong>Dr Shruti Mishra</strong> presented work on reinforcement learning for stratified shear flows, where AI learns through interaction with fluid simulations to discover effective strategies for mixing complex fluid systems, with promising applications in environmental and geophysical sciences, including atmospheric modelling.
           </p>
           <p className="text-justify">
             <strong>Dr Burigede Liu</strong> discussed how AI copilots can accelerate engineering modelling, simulation and design, helping engineers explore and optimise solutions more efficiently. His central point stuck with me: AI is most powerful when it augments human expertise, supporting engineers rather than replacing them.
           </p>
           <p className="text-justify">
-            Together, the three talks made the case that AI is becoming an increasingly valuable scientific partner — helping researchers analyse complex data, uncover new patterns and tackle challenges that span disciplines.
+            Together, the three talks made the case that AI is becoming an increasingly valuable scientific partner, helping researchers analyse complex data, uncover new patterns and tackle challenges that span disciplines.
           </p>
 
-          <h2 className="text-2xl font-bold text-[#2D5016] pt-4">AI for Safety — Beyond the Technical</h2>
+          <h2 className="text-2xl font-bold text-[#2D5016] pt-4">AI for Safety: Beyond the Technical</h2>
           <p className="text-justify">
             The safety session, chaired by Dr Umang Bhatt, looked beyond technical safety to consider how AI is reshaping trust, communication, human relationships and society itself.
           </p>
@@ -109,21 +103,21 @@ export default function ChiaConference2026() {
             In his keynote, <strong>Professor Chris Summerfield</strong> argued that AI's impact will be shaped not only by the technology itself, but by the social, political and economic systems in which it operates. As AI capabilities grow, he suggested, society has a genuine opportunity to shape new norms around authenticity, privacy, trust and human agency.
           </p>
           <p className="text-justify">
-            The panel that followed — <strong>Dr Deborah Raji</strong>, <strong>Grace Yip</strong>, <strong>Rebecca Anselmetti</strong> and <strong>Adrian Mak</strong> — brought perspectives from policy, industry and research. The recurring themes were clear: building safe AI requires collaboration across academia, government and industry; measuring AI's long-term societal impact matters just as much as evaluating technical performance; organisations adopting AI have a responsibility for accountability, transparency and meaningful human oversight; and public voices should play an active role in shaping how AI is governed and deployed.
+            The panel that followed, <strong>Dr Deborah Raji</strong>, <strong>Grace Yip</strong>, <strong>Rebecca Anselmetti</strong> and <strong>Adrian Mak</strong>, brought perspectives from policy, industry and research. The recurring themes were clear: building safe AI requires collaboration across academia, government and industry; measuring AI's long-term societal impact matters just as much as evaluating technical performance; organisations adopting AI have a responsibility for accountability, transparency and meaningful human oversight; and public voices should play an active role in shaping how AI is governed and deployed.
           </p>
 
           <h2 className="text-2xl font-bold text-[#2D5016] pt-4">The Cambridge Union Debate: Is AI Eroding Human Agency?</h2>
           <p className="text-justify">
-            The highlight of the afternoon, for me, was the Cambridge Union-style debate chaired by Dr Malak Sadek on the motion "AI is Eroding Human Agency" — the first time this conference has run a debate in this format, and a fitting choice of venue for it.
+            The highlight of the afternoon, for me, was the Cambridge Union-style debate chaired by Dr Malak Sadek on the motion "AI is Eroding Human Agency", the first time this conference has run a debate in this format, and a fitting choice of venue for it.
           </p>
           <p className="text-justify">
-            <strong>Professor James Evans</strong>, speaking for the motion, argued that AI increasingly concentrates power in governments, corporations and those who own large-scale AI systems. While AI may create a feeling of greater control, he suggested, meaningful decision-making power is shifting away from individuals — pointing to workplace automation, surveillance and the rise of "one-person unicorn" companies as examples of how AI can expand opportunities for a few while reducing autonomy for many.
+            <strong>Professor James Evans</strong>, speaking for the motion, argued that AI increasingly concentrates power in governments, corporations and those who own large-scale AI systems. While AI may create a feeling of greater control, he suggested, meaningful decision-making power is shifting away from individuals: pointing to workplace automation, surveillance and the rise of "one-person unicorn" companies as examples of how AI can expand opportunities for a few while reducing autonomy for many.
           </p>
           <p className="text-justify">
-            <strong>Professor Yvonne Rogers FRS</strong>, speaking against the motion, countered that there is currently limited evidence that AI inherently diminishes human agency. Across healthcare, science and everyday life, she argued, AI can help people organise ideas, solve problems and think in new ways — when thoughtfully designed, AI augments human capabilities rather than replacing human judgement.
+            <strong>Professor Yvonne Rogers FRS</strong>, speaking against the motion, countered that there is currently limited evidence that AI inherently diminishes human agency. Across healthcare, science and everyday life, she argued, AI can help people organise ideas, solve problems and think in new ways; when thoughtfully designed, AI augments human capabilities rather than replacing human judgement.
           </p>
           <p className="text-justify">
-            True to Cambridge Union tradition, the audience cast its votes by leaving through the AYES or NOES doors, with votes counted both before and after the debate to measure the swing in opinion. Professor Yvonne Rogers won the debate by achieving the larger swing in support — a genuinely persuasive demonstration, in the room, that AI can strengthen rather than diminish human agency when it is designed and governed responsibly. Sitting in that chamber, watching a debate decided the same way generations of Cambridge Union debates have been decided before it, was a reminder of exactly why this venue was the right place to be asking the question.
+            True to Cambridge Union tradition, the audience cast its votes by leaving through the AYES or NOES doors, with votes counted both before and after the debate to measure the swing in opinion. Professor Yvonne Rogers won the debate by achieving the larger swing in support: a genuinely persuasive demonstration, in the room, that AI can strengthen rather than diminish human agency when it is designed and governed responsibly. Sitting in that chamber, watching a debate decided the same way generations of Cambridge Union debates have been decided before it, was a reminder of exactly why this venue was the right place to be asking the question.
           </p>
 
           <h2 className="text-2xl font-bold text-[#2D5016] pt-4">Early Career Community: Pitches, Posters and a Panel</h2>
@@ -136,21 +130,9 @@ export default function ChiaConference2026() {
 
           <h2 className="text-2xl font-bold text-[#2D5016] pt-4">Closing Thoughts</h2>
           <p className="text-justify">
-            By the end of the day, the thread running through every session — science, safety, the debate, the Early Career showcase — was the same: AI's trajectory isn't fixed by the technology alone. It's shaped by the systems, institutions and choices around it, and by how deliberately we design for accountability, trust and human oversight. Walking out of the Union that evening, with Parliament still working through its own changes a short walk away, that felt like the right note to end on: whether we're talking about government or about AI, the institutions built for debate and scrutiny are exactly where these questions belong.
+            By the end of the day, the thread running through every session (science, safety, the debate, the Early Career showcase) was the same: AI's trajectory isn't fixed by the technology alone. It's shaped by the systems, institutions and choices around it, and by how deliberately we design for accountability, trust and human oversight. Walking out of the Union that evening, with Parliament in Westminster still working through its own changes, that felt like the right note to end on: whether we're talking about government or about AI, the institutions built for debate and scrutiny are exactly where these questions belong.
           </p>
 
-        </div>
-
-        {/* Tags */}
-        <div className="mt-10 flex flex-wrap gap-2">
-          {tags.map((tag) => (
-            <span
-              key={tag}
-              className="px-4 py-1.5 rounded-full text-sm font-medium text-[#2D5016] bg-[#E6E9DE]"
-            >
-              #{tag}
-            </span>
-          ))}
         </div>
 
         <Link
