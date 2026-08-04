@@ -66,7 +66,7 @@ export default function ChiaConference2026() {
         <div className="bg-white rounded-2xl shadow-lg p-8 lg:p-12 space-y-8 text-lg text-gray-700 leading-relaxed">
 
           <p className="text-justify">
-            On 22 June, while the UK Parliament in Westminster was going through some of its most significant changes in recent memory, I was sitting at The Cambridge Union, an institution often nicknamed the "pre-parliament" for the generations of politicians, thinkers and debaters it has shaped. That same word, change, was exactly why I was there: CHIA's Annual Conference had brought together researchers, industry leaders and policymakers to spend the day exploring what artificial intelligence means for a world already in flux.
+            On 22 June, while the UK Parliament in Westminster was going through some of its most significant changes in recent memory, I was sitting at The Cambridge Union, an institution often nicknamed the "pre-parliament" for the generations of politicians, thinkers and debaters it has shaped. Change, it turned out, was the theme of my day too: I had travelled to Cambridge for CHIA's Annual Conference, where researchers, industry leaders and policymakers would spend the next several hours examining how artificial intelligence is transforming the world we live in.
           </p>
 
           <p className="text-justify">
