@@ -58,7 +58,7 @@ export default function Navigation() {
     { id: 'treasure', label: 'Treasure', type: 'link' },
     { id: 'projects', label: 'Projects', type: 'scroll' },
     { id: 'voluntary-work', label: 'PSR', type: 'link' },
-    { id: 'blog', label: 'Blog', type: 'scroll' },
+    { id: 'blog', label: 'Blog', type: 'link' },
     { id: 'linkedin', label: 'LinkedIn', type: 'external', url: 'https://www.linkedin.com/in/kr28' }
   ];
 
@@ -91,7 +91,8 @@ export default function Navigation() {
                   to={createPageUrl(
                     item.id === 'myquest' ? 'MyQuest' :
                       item.id === 'voluntary-work' ? 'VoluntaryWork' :
-                        'Treasure'
+                        item.id === 'blog' ? 'Blog' :
+                          'Treasure'
                   )}
                   className="px-4 py-2 rounded-full text-sm font-medium text-[#2C2C2C] hover:bg-[#A4B494]/20 hover:text-[#2D5016] transition-all duration-300"
                 >

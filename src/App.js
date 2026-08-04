@@ -12,6 +12,8 @@ import RoyalSociety from './pages/RoyalSociety';
 import YogaOrphanages from './pages/YogaOrphanages';
 import VoluntaryWork from './pages/VoluntaryWork';
 import NagpurYoga from './pages/NagpurYoga';
+import Blog from './pages/Blog';
+import ChiaConference2026 from './pages/ChiaConference2026';
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
         <Route path="/voluntary-work/nagpur" element={<NagpurYoga />} />
         <Route path="/voluntary-work/pune" element={<YogaOrphanages />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/chia-annual-conference-2026" element={<ChiaConference2026 />} />
       </Routes>
     </Router>
   );
