@@ -8,6 +8,7 @@ import Projects from './pages/Projects';
 import BritishLibrary from './pages/BritishLibrary';
 import MyClicks from './pages/MyClicks';
 import EcoVeterans from './pages/EcoVeterans';
+import GlobalCambridge from './pages/GlobalCambridge';
 import RoyalSociety from './pages/RoyalSociety';
 import YogaOrphanages from './pages/YogaOrphanages';
 import VoluntaryWork from './pages/VoluntaryWork';
@@ -26,6 +27,7 @@ function App() {
         <Route path="/treasure/royal-society" element={<RoyalSociety />} />
         <Route path="/treasure/my-clicks" element={<MyClicks />} />
         <Route path="/treasure/eco-veterans" element={<EcoVeterans />} />
+        <Route path="/treasure/global-cambridge" element={<GlobalCambridge />} />
         <Route path="/voluntary-work" element={<VoluntaryWork />} />
         <Route path="/voluntary-work/nagpur" element={<NagpurYoga />} />
         <Route path="/voluntary-work/pune" element={<YogaOrphanages />} />
