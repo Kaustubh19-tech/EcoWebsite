@@ -58,7 +58,7 @@ export default function GlobalCambridge() {
         <div className="bg-white rounded-2xl shadow-lg p-8 lg:p-12 space-y-8 text-lg text-gray-700 leading-relaxed">
 
           <p className="text-justify">
-            Last week I had the pleasure of attending a networking event hosted by{' '}
+            I had the pleasure of attending a networking event hosted by{' '}
             <a href="https://www.globalcambridge.org/" target="_blank" rel="noopener noreferrer" className="text-[#3A6B35] font-semibold hover:underline">
               Global Cambridge
             </a>
