@@ -22,9 +22,9 @@ const people = [
 ];
 
 const galleryImages = [
-  '/images/global_cambridge_1.jpg',
-  '/images/global_cambridge_2.jpg',
   '/images/global_cambridge_3.jpg',
+  '/images/global_cambridge_2.jpg',
+  '/images/global_cambridge_1.jpg',
 ];
 
 export default function GlobalCambridge() {
