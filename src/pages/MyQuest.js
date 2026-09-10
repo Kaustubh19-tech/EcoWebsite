@@ -262,8 +262,6 @@ export default function MyQuest() {
       description: 'Since 2022, I have led and contributed to a range of sustainability-focused projects, with details kept confidential in accordance with GDPR requirements.',
       details: 'Additionally, I have worked with PineVox Ltd, a recognized pioneer in VoIP technology within the UK telecom sector. In a dynamic, high-growth environment, I led the integration of advanced AI features and oversaw significant system upgrades, resulting in measurable improvements in operational efficiency and a marked reduction in system issues. My initiatives enhanced product reliability and contributed to increased customer satisfaction following their successful implementation.',
       additionalText: 'Over the past year, I have conducted independent research at the British Library, focusing on innovative applications of artificial intelligence (AI) to advance sustainability initiatives. For further details, please refer to the Treasure section of this website.',
-      additionalText2: 'I co-founded FlexyWork AI, a startup aiming to develop AI-driven solutions that foster environmental stewardship and advance sustainable practices. Please visit our website for more details.',
-      flexyworkLink: 'https://www.flexyworkai.com/blog',
       additionalText3: 'Recently, I had the privilege of meeting Mr. Kishor Patil, CEO and Managing Director of the KPIT Group, at an event in London. We engaged in a brief but insightful discussion about my initiatives, from which I gained valuable perspectives.',
       additionalText4: 'Additionally, I had the opportunity to engage in a discussion on contemporary developments in artificial intelligence with Dr. Ajit Jaokar, a distinguished leader and educator in the field. With extensive expertise in AI for Cyber-Physical Systems, research, entrepreneurship, and academia, Dr. Jaokar currently serves as Course Director for several AI programs at University of Oxford.',
       icon: Cpu,
@@ -404,19 +402,6 @@ export default function MyQuest() {
                   {event.additionalText2 && (
                     <p className="text-gray-600 leading-relaxed mt-4">
                       {event.additionalText2}
-                      {event.flexyworkLink && (
-                        <>
-                          {' '}
-                          <a
-                            href={event.flexyworkLink}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-[#3A6B35] hover:text-[#2D5016] underline font-medium transition-colors"
-                          >
-                            www.flexyworkai.com/blog
-                          </a>
-                        </>
-                      )}
                     </p>
                   )}
 
