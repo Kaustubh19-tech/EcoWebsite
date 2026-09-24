@@ -15,6 +15,7 @@ import VoluntaryWork from './pages/VoluntaryWork';
 import NagpurYoga from './pages/NagpurYoga';
 import Blog from './pages/Blog';
 import ChiaConference2026 from './pages/ChiaConference2026';
+import CislCanopy2026 from './pages/CislCanopy2026';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/chia-annual-conference-2026" element={<ChiaConference2026 />} />
+        <Route path="/blog/cisl-canopy-2026" element={<CislCanopy2026 />} />
       </Routes>
     </Router>
   );
