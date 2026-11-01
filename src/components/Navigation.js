@@ -55,6 +55,7 @@ export default function Navigation() {
   const navItems = [
     { id: 'journey', label: 'Welcome', type: 'scroll' },
     { id: 'myquest', label: 'My Quest', type: 'link' },
+    { id: 'myresearch', label: 'My Research', type: 'link' },
     { id: 'treasure', label: 'Treasure', type: 'link' },
     { id: 'projects', label: 'Projects', type: 'scroll' },
     { id: 'voluntary-work', label: 'PSR', type: 'link' },
@@ -72,7 +73,7 @@ export default function Navigation() {
           {/* Logo */}
           <button
             onClick={() => scrollToSection('journey')}
-            className="flex items-center gap-2 group"
+            className="flex items-center gap-2 group flex-shrink-0"
           >
             <div className="w-10 h-10 bg-gradient-to-br from-[#3A6B35] to-[#2D5016] rounded-full flex items-center justify-center transform transition-transform group-hover:scale-110">
               <Leaf className="w-5 h-5 text-white" />
@@ -83,18 +84,19 @@ export default function Navigation() {
           </button>
 
           {/* Navigation Links */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1 xl:gap-2 min-w-0 overflow-x-auto whitespace-nowrap py-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
             {navItems.map((item) => (
               item.type === 'link' ? (
                 <Link
                   key={item.id}
                   to={createPageUrl(
                     item.id === 'myquest' ? 'MyQuest' :
-                      item.id === 'voluntary-work' ? 'VoluntaryWork' :
-                        item.id === 'blog' ? 'Blog' :
-                          'Treasure'
+                      item.id === 'myresearch' ? 'MyResearch' :
+                        item.id === 'voluntary-work' ? 'VoluntaryWork' :
+                          item.id === 'blog' ? 'Blog' :
+                            'Treasure'
                   )}
-                  className="px-4 py-2 rounded-full text-sm font-medium text-[#2C2C2C] hover:bg-[#A4B494]/20 hover:text-[#2D5016] transition-all duration-300"
+                  className="px-3 xl:px-4 py-2 rounded-full text-sm font-medium text-[#2C2C2C] hover:bg-[#A4B494]/20 hover:text-[#2D5016] transition-all duration-300"
                 >
                   {item.label}
                 </Link>
@@ -104,7 +106,7 @@ export default function Navigation() {
                   href={item.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-4 py-2 rounded-full text-sm font-medium text-[#2C2C2C] hover:bg-[#A4B494]/20 hover:text-[#2D5016] transition-all duration-300"
+                  className="px-3 xl:px-4 py-2 rounded-full text-sm font-medium text-[#2C2C2C] hover:bg-[#A4B494]/20 hover:text-[#2D5016] transition-all duration-300"
                 >
                   {item.label}
                 </a>
@@ -112,7 +114,7 @@ export default function Navigation() {
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${activeSection === item.id
+                  className={`px-3 xl:px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${activeSection === item.id
                     ? 'bg-[#3A6B35] text-white shadow-md'
                     : 'text-[#2C2C2C] hover:bg-[#A4B494]/20 hover:text-[#2D5016]'
                     }`}

@@ -16,6 +16,8 @@ import NagpurYoga from './pages/NagpurYoga';
 import Blog from './pages/Blog';
 import ChiaConference2026 from './pages/ChiaConference2026';
 import CislCanopy2026 from './pages/CislCanopy2026';
+import MyResearch from './pages/MyResearch';
+import SocialTippingPoints from './pages/SocialTippingPoints';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/my-quest" element={<MyQuest />} />
+        <Route path="/my-research" element={<MyResearch />} />
+        <Route path="/my-research/social-tipping-points" element={<SocialTippingPoints />} />
         <Route path="/treasure" element={<Treasure />} />
         <Route path="/treasure/british-library" element={<BritishLibrary />} />
         <Route path="/treasure/royal-society" element={<RoyalSociety />} />
