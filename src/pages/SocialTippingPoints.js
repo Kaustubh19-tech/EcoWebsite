@@ -114,7 +114,6 @@ export default function SocialTippingPoints() {
             <br />
             London, United Kingdom
           </p>
-          <p className="mt-3 text-[0.95rem] text-gray-700">October 2026</p>
         </header>
 
         <section className="mx-auto mt-9 max-w-[42rem]">

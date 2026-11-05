@@ -38,7 +38,7 @@ export default function MyResearch() {
                 <FileText className="w-8 h-8 text-white" />
               </div>
               <div className="flex-1">
-                <p className="text-sm font-medium text-gray-500 mb-2">Preprint · October 2026</p>
+                <p className="text-sm font-medium text-gray-500 mb-2">Preprint</p>
                 <h2 className="text-3xl font-bold text-[#2D5016] mb-4 group-hover:text-[#3A6B35] transition-colors">
                   From tip point to intervention object: three epistemic shifts in the concept of social tipping points, 1957–2026
                 </h2>
