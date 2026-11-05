@@ -18,6 +18,7 @@ import ChiaConference2026 from './pages/ChiaConference2026';
 import CislCanopy2026 from './pages/CislCanopy2026';
 import MyResearch from './pages/MyResearch';
 import SocialTippingPoints from './pages/SocialTippingPoints';
+import WhereTheAnalogyBreaks from './pages/WhereTheAnalogyBreaks';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/my-quest" element={<MyQuest />} />
         <Route path="/my-research" element={<MyResearch />} />
         <Route path="/my-research/social-tipping-points" element={<SocialTippingPoints />} />
+        <Route path="/my-research/where-the-analogy-breaks" element={<WhereTheAnalogyBreaks />} />
         <Route path="/treasure" element={<Treasure />} />
         <Route path="/treasure/british-library" element={<BritishLibrary />} />
         <Route path="/treasure/royal-society" element={<RoyalSociety />} />

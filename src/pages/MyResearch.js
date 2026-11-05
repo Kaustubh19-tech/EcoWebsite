@@ -52,6 +52,28 @@ export default function MyResearch() {
             </div>
           </section>
         </Link>
+
+        <Link to="/my-research/where-the-analogy-breaks" className="block group">
+          <section className="bg-white rounded-2xl shadow-lg p-8 group-hover:shadow-xl transition-all duration-300 transform group-hover:-translate-y-1">
+            <div className="flex items-start gap-6">
+              <div className="w-16 h-16 bg-gradient-to-br from-[#3A6B35] to-[#2D5016] rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                <FileText className="w-8 h-8 text-white" />
+              </div>
+              <div className="flex-1">
+                <p className="text-sm font-medium text-gray-500 mb-2">Preprint</p>
+                <h2 className="text-3xl font-bold text-[#2D5016] mb-4 group-hover:text-[#3A6B35] transition-colors">
+                  Where the analogy breaks: ecological versus social tipping points
+                </h2>
+                <p className="text-gray-600 leading-relaxed text-lg">
+                  Social tipping points are now a policy instrument and a target for computational detection, yet the concept borrows its vocabulary from theoretical ecology and Earth-system science. This paper tests which parts of that vocabulary carry over.
+                  <span className="block mt-4 text-[#3A6B35] font-medium flex items-center gap-2">
+                    Read paper <ArrowLeft className="w-4 h-4 rotate-180" />
+                  </span>
+                </p>
+              </div>
+            </div>
+          </section>
+        </Link>
       </div>
     </div>
   );
