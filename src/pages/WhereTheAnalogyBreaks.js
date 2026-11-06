@@ -1,6 +1,11 @@
 import React from 'react';
 import { ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { CiteBox, DownloadButton } from '../components/PaperActions';
+import useDocumentTitle from '../hooks/useDocumentTitle';
+import { getPaper } from '../data/papers';
+
+const paper = getPaper('where-the-analogy-breaks');
 
 const serif = '"Times New Roman", Times, "Liberation Serif", "Nimbus Roman", serif';
 const hyphens = { hyphens: 'auto', WebkitHyphens: 'auto' };
@@ -13,14 +18,14 @@ const P = ({ children }) => (
 );
 
 const H2 = ({ n, id, children }) => (
-  <h2 id={id} className="mt-10 mb-3 text-[1.3rem] font-bold leading-snug">
+  <h2 id={id} className="mt-10 mb-3 text-[1.3rem] font-bold leading-snug print:[break-after:avoid]">
     {n && <span className="inline-block min-w-[2rem]">{n}</span>}
     {children}
   </h2>
 );
 
 const H3 = ({ n, id, children }) => (
-  <h3 id={id} className="mt-7 mb-2 text-[1.1rem] font-bold leading-snug">
+  <h3 id={id} className="mt-7 mb-2 text-[1.1rem] font-bold leading-snug print:[break-after:avoid]">
     {n && <span className="inline-block min-w-[2.6rem]">{n}</span>}
     {children}
   </h3>
@@ -75,7 +80,7 @@ const BottomRule = ({ cols }) => (
 const Breakout = ({ id, children }) => (
   <div
     id={id}
-    className="relative my-8"
+    className="relative my-8 print:[break-inside:avoid] print:!left-0 print:!w-full print:!transform-none"
     style={{ left: '50%', transform: 'translateX(-50%)', width: 'min(1180px, calc(100vw - 2rem))' }}
   >
     {children}
@@ -85,7 +90,7 @@ const Breakout = ({ id, children }) => (
 const Figure = ({ n, src, alt, children }) => (
   <figure
     id={'fig-' + n}
-    className="relative my-8"
+    className="relative my-8 print:[break-inside:avoid]"
     style={{ left: '50%', transform: 'translateX(-50%)', width: 'min(1000px, calc(100vw - 2rem))' }}
   >
     <img src={src} alt={alt} className="block w-full h-auto" />
@@ -125,9 +130,10 @@ const Equation = ({ n }) => (
 );
 
 export default function WhereTheAnalogyBreaks() {
+  useDocumentTitle(paper.title + ' | Kaustubh Ramekar');
   return (
     <div className="min-h-screen bg-white text-[#111]" style={{ fontFamily: serif }}>
-      <div className="border-b border-gray-300 bg-[#f5f5f5] font-sans">
+      <div className="border-b border-gray-300 bg-[#f5f5f5] font-sans print:hidden">
         <div className="max-w-3xl mx-auto px-5 py-3 flex items-center justify-between text-sm">
           <Link
             to="/my-research"
@@ -140,15 +146,18 @@ export default function WhereTheAnalogyBreaks() {
         </div>
       </div>
 
-      <article lang="en-GB" className="max-w-3xl mx-auto px-5 pt-10 pb-20 text-[1.1rem] leading-[1.6]">
+      <article lang="en-GB" className="max-w-3xl print:max-w-[880px] mx-auto px-5 pt-10 pb-20 print:pt-0 print:pb-0 text-[1.1rem] leading-[1.6]">
         <header className="text-center">
           <h1 className="text-[1.7rem] sm:text-[2.05rem] font-bold leading-tight">
             Where the analogy breaks: ecological versus social tipping points
           </h1>
           <p className="mt-6 text-[1.25rem]">Kaustubh Ramekar</p>
           <p className="mt-1 text-[0.95rem] leading-snug text-gray-700">
-            Independent researcher, London, United Kingdom
+            Independent researcher: technology, environment and society
+            <br />
+            London, United Kingdom
           </p>
+          <DownloadButton paper={paper} />
         </header>
 
         <section className="mx-auto mt-9 max-w-[42rem]">
@@ -160,6 +169,8 @@ export default function WhereTheAnalogyBreaks() {
             <strong>Keywords:</strong> social tipping points; regime shifts; alternative stable states; early-warning signals; reflexivity; state variables; detection
           </p>
         </section>
+
+        <CiteBox paper={paper} />
 
         <hr className="my-8 border-gray-300" />
 
@@ -418,7 +429,7 @@ export default function WhereTheAnalogyBreaks() {
             <strong>Table 1:</strong> Levels of warrant for social tipping claims under the six conditions of Section <X to="sec-5-3">5.3</X>.
           </p>
           <div className="overflow-x-auto">
-            <table className="w-full border-collapse text-[0.9rem] leading-snug" style={{ minWidth: 520 }}>
+            <table className="print:!min-w-0 w-full border-collapse text-[0.9rem] leading-snug" style={{ minWidth: 520 }}>
               <thead>
                 <tr><Th w="6.5rem"><strong>Warrant</strong></Th><Th><strong>Conditions met</strong></Th><Th><strong>Examples</strong></Th></tr>
               </thead>
@@ -501,7 +512,7 @@ export default function WhereTheAnalogyBreaks() {
             <strong>Table 2:</strong> Property-by-property verdicts on the ecological–social analogy.
           </p>
           <div className="overflow-x-auto">
-            <table className="w-full border-collapse text-[0.8rem] leading-snug" style={{ minWidth: 1000 }}>
+            <table className="print:!min-w-0 w-full border-collapse text-[0.8rem] leading-snug" style={{ minWidth: 1000 }}>
               <thead>
                 <tr><Th w="8rem"><strong>Property</strong></Th><Th><strong>Ecological meaning</strong></Th><Th><strong>Social analogue</strong></Th><Th><strong>Verdict</strong></Th><Th><strong>Key sources</strong></Th></tr>
               </thead>
@@ -603,7 +614,7 @@ export default function WhereTheAnalogyBreaks() {
 
         <Link
           to="/my-research"
-          className="mt-12 inline-flex items-center gap-2 font-sans text-sm text-[#3A6B35] hover:text-[#2D5016] transition-colors"
+          className="mt-12 inline-flex items-center gap-2 font-sans text-sm text-[#3A6B35] hover:text-[#2D5016] transition-colors print:hidden"
         >
           <ArrowLeft className="w-4 h-4" />
           <span className="font-medium">Back to My Research</span>

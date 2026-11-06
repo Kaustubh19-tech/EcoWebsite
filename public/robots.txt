@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eco-tech-kksr.vercel.app/sitemap.xml
