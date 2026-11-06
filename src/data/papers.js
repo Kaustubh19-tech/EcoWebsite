@@ -5,6 +5,8 @@
 export const SITE_URL = 'https://eco-tech-kksr.vercel.app';
 export const AUTHOR = 'Kaustubh Ramekar';
 export const AFFILIATION_LINE_1 = 'Independent researcher: technology, environment and society';
+export const ORCID_ID = '0009-0007-9522-1226';
+export const ORCID_URL = `https://orcid.org/${ORCID_ID}`;
 export const AFFILIATION_LINE_2 = 'London, United Kingdom';
 
 export const papers = [

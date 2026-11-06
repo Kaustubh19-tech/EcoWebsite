@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { CiteBox, DownloadButton } from '../components/PaperActions';
+import { CiteBox, DownloadButton, OrcidLink } from '../components/PaperActions';
 import useDocumentTitle from '../hooks/useDocumentTitle';
 import { getPaper } from '../data/papers';
 
@@ -119,6 +119,9 @@ export default function SocialTippingPoints() {
             Independent researcher: technology, environment and society
             <br />
             London, United Kingdom
+          </p>
+          <p className="mt-1 text-[0.95rem] text-gray-700">
+            <OrcidLink />
           </p>
           <DownloadButton paper={paper} />
         </header>

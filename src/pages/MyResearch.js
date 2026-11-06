@@ -3,6 +3,7 @@ import { ArrowLeft, Download, FileText } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '../utils';
 import { papers } from '../data/papers';
+import { OrcidLink } from '../components/PaperActions';
 import useDocumentTitle from '../hooks/useDocumentTitle';
 
 export default function MyResearch() {
@@ -28,6 +29,9 @@ export default function MyResearch() {
             </h1>
             <p className="text-lg text-gray-600 leading-relaxed">
               Preprints on the concept, evidence and detection of social tipping points
+            </p>
+            <p className="mt-4 text-gray-600">
+              Kaustubh Ramekar · <OrcidLink className="text-[#3A6B35]" />
             </p>
           </div>
         </div>

@@ -1,8 +1,30 @@
 import React, { useState } from 'react';
 import { Check, Copy, Download } from 'lucide-react';
-import { bibtex, citationText } from '../data/papers';
+import { bibtex, citationText, ORCID_URL } from '../data/papers';
 
-// Both components are hidden when the page is printed, so they do not appear in the PDFs.
+// DownloadButton and CiteBox are hidden when the page is printed, so they do not appear in the PDFs.
+// OrcidLink is kept in print, so the iD appears in the PDFs as a clickable link.
+
+export function OrcidLink({ className = '' }) {
+  return (
+    <a
+      href={ORCID_URL}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`inline-flex items-center gap-1.5 hover:underline ${className}`}
+    >
+      <svg width="16" height="16" viewBox="0 0 256 256" aria-hidden="true" className="flex-shrink-0">
+        <circle cx="128" cy="128" r="128" fill="#A6CE39" />
+        <g fill="#fff">
+          <rect x="71" y="78" width="17" height="102" />
+          <circle cx="79.5" cy="56" r="11" />
+          <path d="M103 78h46c33 0 51 23 51 51s-18 51-51 51h-46zm17 15v72h28c24 0 34-16 34-36s-10-36-34-36z" fillRule="evenodd" />
+        </g>
+      </svg>
+      <span>{ORCID_URL.replace('https://', '')}</span>
+    </a>
+  );
+}
 
 export function DownloadButton({ paper }) {
   return (
