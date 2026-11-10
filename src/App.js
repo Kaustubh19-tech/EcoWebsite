@@ -9,6 +9,7 @@ import BritishLibrary from './pages/BritishLibrary';
 import MyClicks from './pages/MyClicks';
 import EcoVeterans from './pages/EcoVeterans';
 import GlobalCambridge from './pages/GlobalCambridge';
+import HeatLeavesAMark from './pages/HeatLeavesAMark';
 import RoyalSociety from './pages/RoyalSociety';
 import YogaOrphanages from './pages/YogaOrphanages';
 import VoluntaryWork from './pages/VoluntaryWork';
@@ -29,6 +30,7 @@ function App() {
         <Route path="/my-research" element={<MyResearch />} />
         <Route path="/my-research/social-tipping-points" element={<SocialTippingPoints />} />
         <Route path="/my-research/where-the-analogy-breaks" element={<WhereTheAnalogyBreaks />} />
+        <Route path="/my-research/does-heat-leave-a-mark" element={<HeatLeavesAMark />} />
         <Route path="/treasure" element={<Treasure />} />
         <Route path="/treasure/british-library" element={<BritishLibrary />} />
         <Route path="/treasure/royal-society" element={<RoyalSociety />} />

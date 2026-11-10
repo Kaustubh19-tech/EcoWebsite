@@ -28,7 +28,7 @@ export default function MyResearch() {
               My <span className="text-[#3A6B35]">Research</span>
             </h1>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Preprints on the concept, evidence and detection of social tipping points
+              Preprints on social tipping points, climate change and public attention
             </p>
             <p className="mt-4 text-gray-600">
               Kaustubh Ramekar · <OrcidLink className="text-[#3A6B35]" />

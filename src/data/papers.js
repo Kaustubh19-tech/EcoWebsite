@@ -35,6 +35,18 @@ export const papers = [
     detection:
       'Language-model and other detectors can show that something changed, but not on their own that a tipping point is approaching. Section 6 sets out three levels of claim, and the hindsight problem that supervised detectors face.',
   },
+  {
+    slug: 'does-heat-leave-a-mark',
+    path: '/my-research/does-heat-leave-a-mark',
+    title: 'Does heat leave a mark? A pre-registered study of UK heatwaves and public attention, 2022–2026',
+    year: 2026,
+    bibKey: 'ramekar2026heat',
+    pdf: '/research/does-heat-leave-a-mark.pdf',
+    summary:
+      'Nine UK heatwaves between 2022 and 2026, dated by a fixed rule from gridded temperature data, are compared with Google Trends and Wikipedia attention. Searches about heat, coping and climate change spike in the week a heatwave begins and are back to normal within one to two weeks. The analysis plan was pre-registered, and the paper reports where its design falls short.',
+    detection:
+      'Attention data can show that something moved. This study shows how to tell a one-week spike from a lasting shift, and how a placebo check can undermine an apparent effect.',
+  },
 ];
 
 export const getPaper = (slug) => papers.find((p) => p.slug === slug);
