@@ -28,7 +28,7 @@ export default function MyResearch() {
               My <span className="text-[#3A6B35]">Research</span>
             </h1>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Preprints on social tipping points, climate change and public attention
+              Preprints on social tipping points, climate attention and household energy
             </p>
             <p className="mt-4 text-gray-600">
               Kaustubh Ramekar · <OrcidLink className="text-[#3A6B35]" />
@@ -58,7 +58,7 @@ export default function MyResearch() {
                 </h2>
                 <p className="text-gray-600 leading-relaxed text-lg">{p.summary}</p>
                 <p className="mt-4 text-gray-700 leading-relaxed">
-                  <span className="font-semibold text-[#2D5016]">Why it matters for detection: </span>
+                  <span className="font-semibold text-[#2D5016]">{p.whyLabel || 'Why it matters for detection'}: </span>
                   {p.detection}
                 </p>
                 <div className="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2 font-medium text-[#3A6B35]">

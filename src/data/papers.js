@@ -47,6 +47,20 @@ export const papers = [
     detection:
       'Attention data can show that something moved. This study shows how to tell a one-week spike from a lasting shift, and how a placebo check can undermine an apparent effect.',
   },
+  {
+    slug: 'who-saves-from-insulation',
+    path: '/my-research/who-saves-from-insulation',
+    title:
+      'Who saves from insulation? Persistent but unequal gas savings from cavity wall insulation in England and Wales',
+    year: 2026,
+    bibKey: 'ramekar2026insulation',
+    pdf: '/research/who-saves-from-insulation.pdf',
+    summary:
+      'Using the 2026 public sample of the National Energy Efficiency Data-Framework, this paper estimates how much cavity wall insulation, installed under government schemes in 2007–2012, cut gas use in homes in England and Wales. Insulation cut gas use by 8.8% and the saving did not fade over five years, but it was about half as large in council tax band A homes as in bands D–F.',
+    whyLabel: 'Why it matters for policy',
+    detection:
+      'Retrofit schemes are scored on modelled savings. This paper measures savings from meter data, and finds that they last at least five years but are about half as large in the lowest-value homes.',
+  },
 ];
 
 export const getPaper = (slug) => papers.find((p) => p.slug === slug);
