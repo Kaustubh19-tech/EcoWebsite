@@ -23,7 +23,7 @@ export default function Blog() {
               My <span className="text-[#3A6B35]">Blog</span>
             </h1>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Writeups and reflections from talks, conferences and events I've attended
+              Writeups and reflections from talks, conferences and events I've attended, and notes on research I follow
             </p>
           </div>
         </div>
@@ -31,6 +31,26 @@ export default function Blog() {
 
       {/* Blog Posts */}
       <div className="max-w-5xl mx-auto px-6 lg:px-8 pb-24 space-y-16">
+        <Link to="/blog/stop-typing-next-concept-modeling" className="block group">
+          <section className="bg-white rounded-2xl shadow-lg p-8 group-hover:shadow-xl transition-all duration-300 transform group-hover:-translate-y-1">
+            <div className="flex items-start gap-6">
+              <div className="w-16 h-16 bg-gradient-to-br from-[#3A6B35] to-[#2D5016] rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                <Newspaper className="w-8 h-8 text-white" />
+              </div>
+              <div className="flex-1">
+                <h2 className="text-3xl font-bold text-[#2D5016] mb-4 group-hover:text-[#3A6B35] transition-colors">
+                  Stop Typing: How Next-Concept Modeling Writes Text Coarse-to-Fine
+                </h2>
+                <p className="text-gray-600 leading-relaxed text-lg">
+                  A plain-English look at a new way to generate text from Stanford's Hazy Research lab and Together AI: sketch the whole answer first, then sharpen it over a handful of passes. How it works, what the results show, and where its limits are.
+                  <span className="block mt-4 text-[#3A6B35] font-medium flex items-center gap-2">
+                    Read more <ArrowLeft className="w-4 h-4 rotate-180" />
+                  </span>
+                </p>
+              </div>
+            </div>
+          </section>
+        </Link>
         <Link to="/blog/chia-annual-conference-2026" className="block group">
           <section className="bg-white rounded-2xl shadow-lg p-8 group-hover:shadow-xl transition-all duration-300 transform group-hover:-translate-y-1">
             <div className="flex items-start gap-6">

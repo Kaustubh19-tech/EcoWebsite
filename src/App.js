@@ -11,6 +11,7 @@ import EcoVeterans from './pages/EcoVeterans';
 import GlobalCambridge from './pages/GlobalCambridge';
 import HeatLeavesAMark from './pages/HeatLeavesAMark';
 import WhoSavesFromInsulation from './pages/WhoSavesFromInsulation';
+import NextConceptModeling from './pages/NextConceptModeling';
 import RoyalSociety from './pages/RoyalSociety';
 import YogaOrphanages from './pages/YogaOrphanages';
 import VoluntaryWork from './pages/VoluntaryWork';
@@ -46,6 +47,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/chia-annual-conference-2026" element={<ChiaConference2026 />} />
         <Route path="/blog/cisl-canopy-2026" element={<CislCanopy2026 />} />
+        <Route path="/blog/stop-typing-next-concept-modeling" element={<NextConceptModeling />} />
       </Routes>
     </Router>
   );
