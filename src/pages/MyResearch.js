@@ -28,7 +28,7 @@ export default function MyResearch() {
               My <span className="text-[#3A6B35]">Research</span>
             </h1>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Preprints on social tipping points, climate attention and household energy
+              Research on social tipping points, climate attention and household energy
             </p>
             <p className="mt-4 text-gray-600">
               Kaustubh Ramekar · <OrcidLink className="text-[#3A6B35]" />
@@ -49,7 +49,6 @@ export default function MyResearch() {
                 <FileText className="w-8 h-8 text-white" />
               </div>
               <div className="flex-1">
-                <p className="text-sm font-medium text-gray-500 mb-2">Preprint</p>
                 <h2 className="text-3xl font-bold text-[#2D5016] mb-4 group-hover:text-[#3A6B35] transition-colors">
                   {/* Stretched link: the whole card opens the paper, while the PDF link below stays separate. */}
                   <Link to={p.path} className="after:absolute after:inset-0 after:rounded-2xl">

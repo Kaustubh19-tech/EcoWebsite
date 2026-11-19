@@ -338,7 +338,6 @@ export default function WhoSavesFromInsulation() {
             <ArrowLeft className="w-4 h-4" />
             <span className="font-medium">Back to My Research</span>
           </Link>
-          <span className="text-gray-600">Preprint</span>
         </div>
       </div>
 

@@ -66,7 +66,7 @@ export const papers = [
 export const getPaper = (slug) => papers.find((p) => p.slug === slug);
 
 export const citationText = (p) =>
-  `Ramekar, K. (${p.year}). ${p.title}. Preprint. ${SITE_URL}${p.path}`;
+  `Ramekar, K. (${p.year}). ${p.title}. ${SITE_URL}${p.path}`;
 
 export const bibtex = (p) =>
   [
@@ -74,7 +74,6 @@ export const bibtex = (p) =>
     `  author = {Ramekar, Kaustubh},`,
     `  title  = {${p.title.replace(/–/g, '--')}},`,
     `  year   = {${p.year}},`,
-    `  note   = {Preprint},`,
     `  url    = {${SITE_URL}${p.path}}`,
     `}`,
   ].join('\n');
